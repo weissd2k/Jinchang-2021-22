@@ -1,0 +1,5 @@
+Reaction,logk,dataset
+Zn+2 + Citrate-3 = ZnCitrate-,6.1,minteq
+Zn+2 + 2Citrate-3 = ZnCitrate2-4,6.7,minteq
+Zn+2 + Citrate-3 + H+ = ZnCitrateH,3.78,minteq
+Zn+2 + Citrate-3 + 2H+ = ZnCitrateH2+,1.68,minteq

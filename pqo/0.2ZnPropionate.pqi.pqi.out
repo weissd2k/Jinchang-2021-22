@@ -1,0 +1,3874 @@
+   Input file: /Users/wangjincheng/Desktop/git/irp-jw21/Project_jw21/pqi/0.2ZnPropionate.pqi
+  Output file: /Users/wangjincheng/Desktop/git/irp-jw21/Project_jw21/pqo/0.2ZnPropionate.pqi.pqi.out
+Database file: /Users/wangjincheng/Desktop/git/irp-jw21/Project_jw21/phreeqc/database/minteq.v4.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	PHASES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	DATABASE /Users/wangjincheng/Desktop/git/irp-jw21/Project_jw21/phreeqc/database/minteq.v4.dat
+	TITLE 04_SURFACE_COMPLEXATION
+	SOLUTION_MASTER_SPECIES
+	Zn		Zn+2		0.0	Zn	65.39
+	Propionate	Propionate-	1.0	73.072	73.072
+	END
+-----
+TITLE
+-----
+
+ 04_SURFACE_COMPLEXATION
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+	SOLUTION_SPECIES
+	Zn+2 + Propionate- = Zn(Propionate)+
+	log_k		0.931
+	Zn+2 + 2Propionate- = Zn(Propionate)2
+	log_k		1.588
+	END
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 3.
+------------------------------------
+
+	SOLUTION 1
+	pH		3.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 1.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   3.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.010e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -1.337e-03
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.737e-03
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.43
+                               Iterations  =   4
+                                  Total H  = 1.110152e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              1.340e-03   1.000e-03    -2.873    -3.000    -0.127      0.00
+   OH-             1.415e-11   1.000e-11   -10.849   -11.000    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.602e-06   4.602e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.597e-07   5.454e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.070e-08    -6.864    -7.390    -0.527     (0)  
+   ZnOHCl          2.547e-10   2.547e-10    -9.594    -9.594     0.000     (0)  
+H(0)          1.352e-17
+   H2              6.759e-18   7.079e-18   -17.170   -17.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -58.021   -58.001     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.965e-04   1.965e-04    -3.707    -3.707     0.000     (0)  
+   Propionate-     3.519e-06   2.626e-06    -5.454    -5.581    -0.127     (0)  
+   Zn(Propionate)+   1.558e-09   1.163e-09    -8.807    -8.934    -0.127     (0)  
+   Zn(Propionate)2   1.324e-14   1.386e-14   -13.878   -13.858     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.191e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.602e-06   4.602e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.597e-07   5.454e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.070e-08    -6.864    -7.390    -0.527     (0)  
+   Zn(Propionate)+   1.558e-09   1.163e-09    -8.807    -8.934    -0.127     (0)  
+   ZnOHCl          2.547e-10   2.547e-10    -9.594    -9.594     0.000     (0)  
+   ZnOH+           8.789e-11   5.191e-11   -10.056   -10.285    -0.229     (0)  
+   Zn(Propionate)2   1.324e-14   1.386e-14   -13.878   -13.858     0.020     (0)  
+   Zn(OH)2         8.228e-17   8.228e-17   -16.085   -16.085     0.000     (0)  
+   Zn(OH)3-        6.982e-24   4.124e-24   -23.156   -23.385    -0.229     (0)  
+   Zn(OH)4-2       1.349e-32   1.642e-33   -31.870   -32.785    -0.915     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -55.10     27.99   83.09  O2
+  Zincite          -9.62      1.71   11.33  ZnO
+  Zn(OH)2         -10.49      1.71   12.20  Zn(OH)2
+  Zn(OH)2(am)     -10.76      1.71   12.47  Zn(OH)2
+  Zn(OH)2(beta)   -10.04      1.71   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -9.82      1.71   11.53  Zn(OH)2
+  Zn(OH)2(gamma)  -10.02      1.71   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -15.60     -0.40   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -37.60      0.90   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -9.48      1.71   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 4.
+------------------------------------
+
+	SOLUTION 2
+	pH		3.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 2.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   3.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.008e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -8.399e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.240e-03
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.31
+                               Iterations  =   4
+                                  Total H  = 1.110147e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              8.455e-04   6.310e-04    -3.073    -3.200    -0.127      0.00
+   OH-             2.243e-11   1.585e-11   -10.649   -10.800    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.603e-06   4.603e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.599e-07   5.456e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.072e-08    -6.864    -7.390    -0.527     (0)  
+   ZnOHCl          4.039e-10   4.039e-10    -9.394    -9.394     0.000     (0)  
+H(0)          5.382e-18
+   H2              2.691e-18   2.818e-18   -17.570   -17.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -57.221   -57.201     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.945e-04   1.945e-04    -3.711    -3.711     0.000     (0)  
+   Propionate-     5.520e-06   4.120e-06    -5.258    -5.385    -0.127     (0)  
+   Zn(Propionate)+   2.445e-09   1.825e-09    -8.612    -8.739    -0.127     (0)  
+   Zn(Propionate)2   3.259e-14   3.413e-14   -13.487   -13.467     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.192e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.603e-06   4.603e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.599e-07   5.456e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.072e-08    -6.864    -7.390    -0.527     (0)  
+   Zn(Propionate)+   2.445e-09   1.825e-09    -8.612    -8.739    -0.127     (0)  
+   ZnOHCl          4.039e-10   4.039e-10    -9.394    -9.394     0.000     (0)  
+   ZnOH+           1.393e-10   8.230e-11    -9.856   -10.085    -0.229     (0)  
+   Zn(Propionate)2   3.259e-14   3.413e-14   -13.487   -13.467     0.020     (0)  
+   Zn(OH)2         2.067e-16   2.067e-16   -15.685   -15.685     0.000     (0)  
+   Zn(OH)3-        2.779e-23   1.642e-23   -22.556   -22.785    -0.229     (0)  
+   Zn(OH)4-2       8.503e-32   1.036e-32   -31.070   -31.985    -0.914     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -54.30     28.79   83.09  O2
+  Zincite          -9.22      2.11   11.33  ZnO
+  Zn(OH)2         -10.09      2.11   12.20  Zn(OH)2
+  Zn(OH)2(am)     -10.36      2.11   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -9.64      2.11   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -9.42      2.11   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -9.62      2.11   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -15.00      0.20   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -36.00      2.50   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -9.08      2.11   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 5.
+------------------------------------
+
+	SOLUTION 3
+	pH		3.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 3.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   3.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.006e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -5.248e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   9.248e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.23
+                               Iterations  =   4
+                                  Total H  = 1.110144e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              5.334e-04   3.981e-04    -3.273    -3.400    -0.127      0.00
+   OH-             3.555e-11   2.512e-11   -10.449   -10.600    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.458e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          6.402e-10   6.402e-10    -9.194    -9.194     0.000     (0)  
+H(0)          2.143e-18
+   H2              1.071e-18   1.122e-18   -17.970   -17.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -56.421   -56.401     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.914e-04   1.914e-04    -3.718    -3.718     0.000     (0)  
+   Propionate-     8.610e-06   6.426e-06    -5.065    -5.192    -0.127     (0)  
+   Zn(Propionate)+   3.814e-09   2.847e-09    -8.419    -8.546    -0.127     (0)  
+   Zn(Propionate)2   7.928e-14   8.303e-14   -13.101   -13.081     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.193e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.458e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   3.814e-09   2.847e-09    -8.419    -8.546    -0.127     (0)  
+   ZnOHCl          6.402e-10   6.402e-10    -9.194    -9.194     0.000     (0)  
+   ZnOH+           2.207e-10   1.305e-10    -9.656    -9.885    -0.228     (0)  
+   Zn(Propionate)2   7.928e-14   8.303e-14   -13.101   -13.081     0.020     (0)  
+   Zn(OH)2         5.194e-16   5.194e-16   -15.285   -15.285     0.000     (0)  
+   Zn(OH)3-        1.106e-22   6.539e-23   -21.956   -22.184    -0.228     (0)  
+   Zn(OH)4-2       5.361e-31   6.539e-32   -30.271   -31.184    -0.914     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -53.50     29.59   83.09  O2
+  Zincite          -8.82      2.51   11.33  ZnO
+  Zn(OH)2          -9.69      2.51   12.20  Zn(OH)2
+  Zn(OH)2(am)      -9.96      2.51   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -9.24      2.51   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -9.02      2.51   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -9.22      2.51   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -14.40      0.80   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -34.40      4.10   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -8.68      2.51   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 6.
+------------------------------------
+
+	SOLUTION 4
+	pH		3.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 4.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   3.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.005e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -3.232e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   7.232e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.18
+                               Iterations  =   4
+                                  Total H  = 1.110142e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              3.366e-04   2.512e-04    -3.473    -3.600    -0.127      0.00
+   OH-             5.634e-11   3.981e-11   -10.249   -10.400    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.015e-09   1.015e-09    -8.994    -8.994     0.000     (0)  
+H(0)          8.531e-19
+   H2              4.265e-19   4.467e-19   -18.370   -18.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -55.621   -55.601     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.867e-04   1.867e-04    -3.729    -3.729     0.000     (0)  
+   Propionate-     1.331e-05   9.934e-06    -4.876    -5.003    -0.127     (0)  
+   Zn(Propionate)+   5.897e-09   4.401e-09    -8.229    -8.356    -0.127     (0)  
+   Zn(Propionate)2   1.895e-13   1.985e-13   -12.722   -12.702     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.193e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   5.897e-09   4.401e-09    -8.229    -8.356    -0.127     (0)  
+   ZnOHCl          1.015e-09   1.015e-09    -8.994    -8.994     0.000     (0)  
+   ZnOH+           3.498e-10   2.068e-10    -9.456    -9.685    -0.228     (0)  
+   Zn(Propionate)2   1.895e-13   1.985e-13   -12.722   -12.702     0.020     (0)  
+   Zn(OH)2         1.305e-15   1.305e-15   -14.884   -14.884     0.000     (0)  
+   Zn(OH)3-        4.405e-22   2.603e-22   -21.356   -21.584    -0.228     (0)  
+   Zn(OH)4-2       3.381e-30   4.126e-31   -29.471   -30.384    -0.914     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -52.70     30.39   83.09  O2
+  Zincite          -8.42      2.91   11.33  ZnO
+  Zn(OH)2          -9.29      2.91   12.20  Zn(OH)2
+  Zn(OH)2(am)      -9.56      2.91   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -8.84      2.91   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -8.62      2.91   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -8.82      2.91   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -13.80      1.40   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -32.80      5.70   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -8.28      2.91   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 7.
+------------------------------------
+
+	SOLUTION 5
+	pH		3.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 5.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   3.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -1.920e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   5.920e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.15
+                               Iterations  =   4
+                                  Total H  = 1.110141e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              2.124e-04   1.585e-04    -3.673    -3.800    -0.127      0.00
+   OH-             8.929e-11   6.310e-11   -10.049   -10.200    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.608e-09   1.608e-09    -8.794    -8.794     0.000     (0)  
+H(0)          3.396e-19
+   H2              1.698e-19   1.778e-19   -18.770   -18.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -54.821   -54.801     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.797e-04   1.797e-04    -3.745    -3.745     0.000     (0)  
+   Propionate-     2.030e-05   1.515e-05    -4.692    -4.819    -0.127     (0)  
+   Zn(Propionate)+   8.996e-09   6.714e-09    -8.046    -8.173    -0.127     (0)  
+   Zn(Propionate)2   4.410e-13   4.618e-13   -12.356   -12.336     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.194e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   8.996e-09   6.714e-09    -8.046    -8.173    -0.127     (0)  
+   ZnOHCl          1.608e-09   1.608e-09    -8.794    -8.794     0.000     (0)  
+   ZnOH+           5.544e-10   3.277e-10    -9.256    -9.485    -0.228     (0)  
+   Zn(Propionate)2   4.410e-13   4.618e-13   -12.356   -12.336     0.020     (0)  
+   Zn(OH)2         3.277e-15   3.277e-15   -14.484   -14.484     0.000     (0)  
+   Zn(OH)3-        1.754e-21   1.036e-21   -20.756   -20.984    -0.228     (0)  
+   Zn(OH)4-2       2.133e-29   2.604e-30   -28.671   -29.584    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -51.90     31.19   83.09  O2
+  Zincite          -8.02      3.31   11.33  ZnO
+  Zn(OH)2          -8.89      3.31   12.20  Zn(OH)2
+  Zn(OH)2(am)      -9.16      3.31   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -8.44      3.31   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -8.22      3.31   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -8.42      3.31   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -13.20      2.00   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -31.20      7.30   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -7.88      3.31   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 8.
+------------------------------------
+
+	SOLUTION 6
+	pH		4.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 6.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -1.036e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   5.036e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.13
+                               Iterations  =   4
+                                  Total H  = 1.110140e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              1.340e-04   1.000e-04    -3.873    -4.000    -0.127      0.00
+   OH-             1.415e-10   1.000e-10    -9.849   -10.000    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.602e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          2.549e-09   2.549e-09    -8.594    -8.594     0.000     (0)  
+H(0)          1.352e-19
+   H2              6.760e-20   7.079e-20   -19.170   -19.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -54.021   -54.001     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.696e-04   1.696e-04    -3.771    -3.771     0.000     (0)  
+   Propionate-     3.037e-05   2.267e-05    -4.517    -4.645    -0.127     (0)  
+   Zn(Propionate)+   1.346e-08   1.004e-08    -7.871    -7.998    -0.127     (0)  
+   Zn(Propionate)2   9.870e-13   1.034e-12   -12.006   -11.986     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.194e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.602e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   1.346e-08   1.004e-08    -7.871    -7.998    -0.127     (0)  
+   ZnOHCl          2.549e-09   2.549e-09    -8.594    -8.594     0.000     (0)  
+   ZnOH+           8.787e-10   5.194e-10    -9.056    -9.285    -0.228     (0)  
+   Zn(Propionate)2   9.870e-13   1.034e-12   -12.006   -11.986     0.020     (0)  
+   Zn(OH)2         8.233e-15   8.233e-15   -14.084   -14.084     0.000     (0)  
+   Zn(OH)3-        6.981e-21   4.126e-21   -20.156   -20.384    -0.228     (0)  
+   Zn(OH)4-2       1.346e-28   1.643e-29   -27.871   -28.784    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -51.10     31.99   83.09  O2
+  Zincite          -7.62      3.71   11.33  ZnO
+  Zn(OH)2          -8.49      3.71   12.20  Zn(OH)2
+  Zn(OH)2(am)      -8.76      3.71   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -8.04      3.71   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -7.82      3.71   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -8.02      3.71   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -12.60      2.60   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -29.60      8.90   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -7.48      3.71   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 9.
+------------------------------------
+
+	SOLUTION 7
+	pH		4.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 7.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -4.030e-05
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   4.403e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.11
+                               Iterations  =   4
+                                  Total H  = 1.110139e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              8.454e-05   6.310e-05    -4.073    -4.200    -0.127      0.00
+   OH-             2.243e-10   1.585e-10    -9.649    -9.800    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          4.040e-09   4.040e-09    -8.394    -8.394     0.000     (0)  
+H(0)          5.383e-20
+   H2              2.691e-20   2.818e-20   -19.570   -19.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -53.221   -53.201     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.558e-04   1.558e-04    -3.808    -3.808     0.000     (0)  
+   Propionate-     4.421e-05   3.300e-05    -4.354    -4.482    -0.127     (0)  
+   Zn(Propionate)+   1.959e-08   1.462e-08    -7.708    -7.835    -0.127     (0)  
+   Zn(Propionate)2   2.091e-12   2.190e-12   -11.680   -11.660     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.193e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   1.959e-08   1.462e-08    -7.708    -7.835    -0.127     (0)  
+   ZnOHCl          4.040e-09   4.040e-09    -8.394    -8.394     0.000     (0)  
+   ZnOH+           1.393e-09   8.232e-10    -8.856    -9.085    -0.228     (0)  
+   Zn(Propionate)2   2.091e-12   2.190e-12   -11.680   -11.660     0.020     (0)  
+   Zn(OH)2         2.068e-14   2.068e-14   -13.684   -13.684     0.000     (0)  
+   Zn(OH)3-        2.779e-20   1.643e-20   -19.556   -19.784    -0.228     (0)  
+   Zn(OH)4-2       8.489e-28   1.037e-28   -27.071   -27.984    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -50.30     32.79   83.09  O2
+  Zincite          -7.22      4.11   11.33  ZnO
+  Zn(OH)2          -8.09      4.11   12.20  Zn(OH)2
+  Zn(OH)2(am)      -8.36      4.11   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -7.64      4.11   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -7.42      4.11   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -7.62      4.11   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -12.00      3.20   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -28.00     10.50   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -7.08      4.11   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 10.
+-------------------------------------
+
+	SOLUTION 8
+	pH		4.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 8.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   8.741e-06
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   3.913e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.10
+                               Iterations  =   4
+                                  Total H  = 1.110139e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              5.334e-05   3.981e-05    -4.273    -4.400    -0.127      0.00
+   OH-             3.554e-10   2.512e-10    -9.449    -9.600    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          6.403e-09   6.403e-09    -8.194    -8.194     0.000     (0)  
+H(0)          2.143e-20
+   H2              1.071e-20   1.122e-20   -19.970   -19.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -52.421   -52.401     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.379e-04   1.379e-04    -3.860    -3.860     0.000     (0)  
+   Propionate-     6.204e-05   4.631e-05    -4.207    -4.334    -0.127     (0)  
+   Zn(Propionate)+   2.749e-08   2.052e-08    -7.561    -7.688    -0.127     (0)  
+   Zn(Propionate)2   4.118e-12   4.313e-12   -11.385   -11.365     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.674e-04   5.193e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.601e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   2.749e-08   2.052e-08    -7.561    -7.688    -0.127     (0)  
+   ZnOHCl          6.403e-09   6.403e-09    -8.194    -8.194     0.000     (0)  
+   ZnOH+           2.207e-09   1.305e-09    -8.656    -8.885    -0.228     (0)  
+   Zn(Propionate)2   4.118e-12   4.313e-12   -11.385   -11.365     0.020     (0)  
+   Zn(OH)2         5.194e-14   5.194e-14   -13.284   -13.284     0.000     (0)  
+   Zn(OH)3-        1.106e-19   6.539e-20   -18.956   -19.184    -0.228     (0)  
+   Zn(OH)4-2       5.356e-27   6.540e-28   -26.271   -27.184    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -49.50     33.59   83.09  O2
+  Zincite          -6.82      4.51   11.33  ZnO
+  Zn(OH)2          -7.69      4.51   12.20  Zn(OH)2
+  Zn(OH)2(am)      -7.96      4.51   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -7.24      4.51   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -7.02      4.51   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -7.22      4.51   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -11.40      3.80   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -26.40     12.10   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -6.68      4.51   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 11.
+-------------------------------------
+
+	SOLUTION 9
+	pH		4.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 9.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   4.962e-05
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   3.504e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.09
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              3.366e-05   2.512e-05    -4.473    -4.600    -0.127      0.00
+   OH-             5.633e-10   3.981e-10    -9.249    -9.400    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.015e-08   1.015e-08    -7.994    -7.994     0.000     (0)  
+H(0)          8.531e-21
+   H2              4.265e-21   4.467e-21   -20.370   -20.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -51.621   -51.601     0.020     (0)  
+Propionate    2.000e-04
+   H(Propionate)   1.167e-04   1.167e-04    -3.933    -3.933     0.000     (0)  
+   Propionate-     8.323e-05   6.212e-05    -4.080    -4.207    -0.127     (0)  
+   Zn(Propionate)+   3.687e-08   2.752e-08    -7.433    -7.560    -0.127     (0)  
+   Zn(Propionate)2   7.409e-12   7.759e-12   -11.130   -11.110     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.673e-04   5.193e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.711e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.605e-06   4.605e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.459e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.369e-07   4.074e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   3.687e-08   2.752e-08    -7.433    -7.560    -0.127     (0)  
+   ZnOHCl          1.015e-08   1.015e-08    -7.994    -7.994     0.000     (0)  
+   ZnOH+           3.497e-09   2.067e-09    -8.456    -8.685    -0.228     (0)  
+   Zn(Propionate)2   7.409e-12   7.759e-12   -11.130   -11.110     0.020     (0)  
+   Zn(OH)2         1.305e-13   1.305e-13   -12.885   -12.885     0.000     (0)  
+   Zn(OH)3-        4.404e-19   2.603e-19   -18.356   -18.584    -0.228     (0)  
+   Zn(OH)4-2       3.379e-26   4.126e-27   -25.471   -26.384    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -48.70     34.39   83.09  O2
+  Zincite          -6.42      4.91   11.33  ZnO
+  Zn(OH)2          -7.29      4.91   12.20  Zn(OH)2
+  Zn(OH)2(am)      -7.56      4.91   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -6.84      4.91   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -6.62      4.91   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -6.82      4.91   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -10.80      4.40   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -24.80     13.70   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -6.28      4.91   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 12.
+-------------------------------------
+
+	SOLUTION 10
+	pH		4.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 10.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   8.491e-05
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   3.151e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.08
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              2.123e-05   1.585e-05    -4.673    -4.800    -0.127      0.00
+   OH-             8.928e-10   6.310e-10    -9.049    -9.200    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.710e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.458e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.608e-08   1.608e-08    -7.794    -7.794     0.000     (0)  
+H(0)          3.396e-21
+   H2              1.698e-21   1.778e-21   -20.770   -20.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -50.821   -50.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.061e-04   7.917e-05    -3.974    -4.101    -0.127     (0)  
+   H(Propionate)   9.388e-05   9.388e-05    -4.027    -4.027     0.000     (0)  
+   Zn(Propionate)+   4.699e-08   3.507e-08    -7.328    -7.455    -0.127     (0)  
+   Zn(Propionate)2   1.204e-11   1.260e-11   -10.920   -10.900     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.673e-04   5.192e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.710e-05   1.947e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.600e-07   5.458e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   4.699e-08   3.507e-08    -7.328    -7.455    -0.127     (0)  
+   ZnOHCl          1.608e-08   1.608e-08    -7.794    -7.794     0.000     (0)  
+   ZnOH+           5.543e-09   3.276e-09    -8.256    -8.485    -0.228     (0)  
+   Zn(Propionate)2   1.204e-11   1.260e-11   -10.920   -10.900     0.020     (0)  
+   Zn(OH)2         3.277e-13   3.277e-13   -12.485   -12.485     0.000     (0)  
+   Zn(OH)3-        1.753e-18   1.036e-18   -17.756   -17.985    -0.228     (0)  
+   Zn(OH)4-2       2.132e-25   2.603e-26   -24.671   -25.585    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -47.90     35.19   83.09  O2
+  Zincite          -6.02      5.31   11.33  ZnO
+  Zn(OH)2          -6.89      5.31   12.20  Zn(OH)2
+  Zn(OH)2(am)      -7.16      5.31   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -6.44      5.31   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -6.22      5.31   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -6.42      5.31   11.73  Zn(OH)2
+  Zn2(OH)3Cl      -10.20      5.00   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -23.20     15.30   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -5.88      5.31   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 13.
+-------------------------------------
+
+	SOLUTION 11
+	pH		5.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 11.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   5.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.150e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.850e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.07
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              1.340e-05   1.000e-05    -4.873    -5.000    -0.127      0.00
+   OH-             1.415e-09   1.000e-09    -8.849    -9.000    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.599e-07   5.457e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          2.548e-08   2.548e-08    -7.594    -7.594     0.000     (0)  
+H(0)          1.352e-21
+   H2              6.760e-22   7.079e-22   -21.170   -21.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -50.021   -50.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.283e-04   9.576e-05    -3.892    -4.019    -0.127     (0)  
+   H(Propionate)   7.164e-05   7.164e-05    -4.145    -4.145     0.000     (0)  
+   Zn(Propionate)+   5.682e-08   4.241e-08    -7.245    -7.373    -0.127     (0)  
+   Zn(Propionate)2   1.760e-11   1.844e-11   -10.754   -10.734     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.673e-04   5.192e-05    -3.776    -4.285    -0.508     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.604e-06   4.604e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.599e-07   5.457e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.073e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   5.682e-08   4.241e-08    -7.245    -7.373    -0.127     (0)  
+   ZnOHCl          2.548e-08   2.548e-08    -7.594    -7.594     0.000     (0)  
+   ZnOH+           8.783e-09   5.192e-09    -8.056    -8.285    -0.228     (0)  
+   Zn(Propionate)2   1.760e-11   1.844e-11   -10.754   -10.734     0.020     (0)  
+   Zn(OH)2         8.230e-13   8.230e-13   -12.085   -12.085     0.000     (0)  
+   Zn(OH)3-        6.978e-18   4.125e-18   -17.156   -17.385    -0.228     (0)  
+   Zn(OH)4-2       1.345e-24   1.642e-25   -23.871   -24.785    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -47.10     35.99   83.09  O2
+  Zincite          -5.62      5.71   11.33  ZnO
+  Zn(OH)2          -6.49      5.71   12.20  Zn(OH)2
+  Zn(OH)2(am)      -6.76      5.71   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -6.04      5.71   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -5.82      5.71   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -6.02      5.71   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -9.60      5.60   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -21.60     16.90   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -5.48      5.71   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 14.
+-------------------------------------
+
+	SOLUTION 12
+	pH		5.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 12.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   5.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.395e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.605e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.07
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              8.454e-06   6.310e-06    -5.073    -5.200    -0.127      0.00
+   OH-             2.243e-09   1.585e-09    -8.649    -8.800    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.603e-06   4.603e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.598e-07   5.457e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.072e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          4.038e-08   4.038e-08    -7.394    -7.394     0.000     (0)  
+H(0)          5.383e-22
+   H2              2.691e-22   2.818e-22   -21.570   -21.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -49.221   -49.201     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.478e-04   1.103e-04    -3.830    -3.957    -0.127     (0)  
+   H(Propionate)   5.209e-05   5.209e-05    -4.283    -4.283     0.000     (0)  
+   Zn(Propionate)+   6.547e-08   4.886e-08    -7.184    -7.311    -0.127     (0)  
+   Zn(Propionate)2   2.337e-11   2.448e-11   -10.631   -10.611     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.673e-04   5.191e-05    -3.777    -4.285    -0.508     (0)  
+   ZnCl+           2.710e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.603e-06   4.603e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.598e-07   5.457e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.072e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   6.547e-08   4.886e-08    -7.184    -7.311    -0.127     (0)  
+   ZnOHCl          4.038e-08   4.038e-08    -7.394    -7.394     0.000     (0)  
+   ZnOH+           1.392e-08   8.228e-09    -7.856    -8.085    -0.228     (0)  
+   Zn(Propionate)2   2.337e-11   2.448e-11   -10.631   -10.611     0.020     (0)  
+   Zn(OH)2         2.067e-12   2.067e-12   -11.685   -11.685     0.000     (0)  
+   Zn(OH)3-        2.778e-17   1.642e-17   -16.556   -16.785    -0.228     (0)  
+   Zn(OH)4-2       8.485e-24   1.036e-24   -23.071   -23.985    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -46.30     36.79   83.09  O2
+  Zincite          -5.22      6.11   11.33  ZnO
+  Zn(OH)2          -6.09      6.11   12.20  Zn(OH)2
+  Zn(OH)2(am)      -6.36      6.11   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -5.64      6.11   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -5.42      6.11   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -5.62      6.11   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -9.00      6.20   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -20.00     18.50   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -5.08      6.11   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 15.
+-------------------------------------
+
+	SOLUTION 13
+	pH		5.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 13.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   5.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.584e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.416e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.06
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              5.334e-06   3.981e-06    -5.273    -5.400    -0.127      0.00
+   OH-             3.554e-09   2.512e-09    -8.449    -8.600    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.709e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.602e-06   4.602e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.596e-07   5.455e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.071e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          6.399e-08   6.399e-08    -7.194    -7.194     0.000     (0)  
+H(0)          2.143e-22
+   H2              1.071e-22   1.122e-22   -21.970   -21.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -48.421   -48.401     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.636e-04   1.221e-04    -3.786    -3.913    -0.127     (0)  
+   H(Propionate)   3.636e-05   3.636e-05    -4.439    -4.439     0.000     (0)  
+   Zn(Propionate)+   7.242e-08   5.405e-08    -7.140    -7.267    -0.127     (0)  
+   Zn(Propionate)2   2.860e-11   2.995e-11   -10.544   -10.524     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.673e-04   5.190e-05    -3.777    -4.285    -0.508     (0)  
+   ZnCl+           2.709e-05   1.946e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.602e-06   4.602e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.596e-07   5.455e-07    -6.119    -6.263    -0.144     (0)  
+   ZnCl4-2         1.368e-07   4.071e-08    -6.864    -7.390    -0.526     (0)  
+   Zn(Propionate)+   7.242e-08   5.405e-08    -7.140    -7.267    -0.127     (0)  
+   ZnOHCl          6.399e-08   6.399e-08    -7.194    -7.194     0.000     (0)  
+   ZnOH+           2.206e-08   1.304e-08    -7.656    -7.885    -0.228     (0)  
+   Zn(Propionate)2   2.860e-11   2.995e-11   -10.544   -10.524     0.020     (0)  
+   Zn(OH)2         5.191e-12   5.191e-12   -11.285   -11.285     0.000     (0)  
+   Zn(OH)3-        1.106e-16   6.535e-17   -15.956   -16.185    -0.228     (0)  
+   Zn(OH)4-2       5.353e-23   6.536e-24   -22.271   -23.185    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -45.50     37.59   83.09  O2
+  Zincite          -4.82      6.51   11.33  ZnO
+  Zn(OH)2          -5.69      6.51   12.20  Zn(OH)2
+  Zn(OH)2(am)      -5.96      6.51   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -5.24      6.51   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -5.02      6.51   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -5.22      6.51   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -8.40      6.80   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -18.40     20.10   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -4.68      6.51   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 16.
+-------------------------------------
+
+	SOLUTION 14
+	pH		5.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 14.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   5.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.722e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.278e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.06
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              3.366e-06   2.512e-06    -5.473    -5.600    -0.127      0.00
+   OH-             5.633e-09   3.981e-09    -8.249    -8.400    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.708e-05   1.945e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.601e-06   4.601e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.594e-07   5.454e-07    -6.120    -6.263    -0.144     (0)  
+   ZnCl4-2         1.367e-07   4.070e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.014e-07   1.014e-07    -6.994    -6.994     0.000     (0)  
+H(0)          8.531e-23
+   H2              4.265e-23   4.467e-23   -22.370   -22.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -47.621   -47.601     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.753e-04   1.309e-04    -3.756    -3.883    -0.127     (0)  
+   H(Propionate)   2.459e-05   2.459e-05    -4.609    -4.609     0.000     (0)  
+   Zn(Propionate)+   7.761e-08   5.792e-08    -7.110    -7.237    -0.127     (0)  
+   Zn(Propionate)2   3.285e-11   3.441e-11   -10.483   -10.463     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.672e-04   5.188e-05    -3.777    -4.285    -0.508     (0)  
+   ZnCl+           2.708e-05   1.945e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.601e-06   4.601e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.594e-07   5.454e-07    -6.120    -6.263    -0.144     (0)  
+   ZnCl4-2         1.367e-07   4.070e-08    -6.864    -7.390    -0.526     (0)  
+   ZnOHCl          1.014e-07   1.014e-07    -6.994    -6.994     0.000     (0)  
+   Zn(Propionate)+   7.761e-08   5.792e-08    -7.110    -7.237    -0.127     (0)  
+   ZnOH+           3.495e-08   2.066e-08    -7.457    -7.685    -0.228     (0)  
+   Zn(Propionate)2   3.285e-11   3.441e-11   -10.483   -10.463     0.020     (0)  
+   Zn(OH)2         1.303e-11   1.303e-11   -10.885   -10.885     0.000     (0)  
+   Zn(OH)3-        4.400e-16   2.601e-16   -15.357   -15.585    -0.228     (0)  
+   Zn(OH)4-2       3.377e-22   4.123e-23   -21.472   -22.385    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -44.70     38.39   83.09  O2
+  Zincite          -4.42      6.91   11.33  ZnO
+  Zn(OH)2          -5.29      6.91   12.20  Zn(OH)2
+  Zn(OH)2(am)      -5.56      6.91   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -4.84      6.91   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -4.62      6.91   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -4.82      6.91   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -7.80      7.40   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -16.80     21.70   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.28   25.79  Zn
+  ZnO(active)      -4.28      6.91   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 17.
+-------------------------------------
+
+	SOLUTION 15
+	pH		5.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 15.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   5.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.818e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.182e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              2.124e-06   1.585e-06    -5.673    -5.800    -0.127      0.00
+   OH-             8.928e-09   6.310e-09    -8.049    -8.200    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.707e-05   1.944e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.599e-06   4.599e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.591e-07   5.452e-07    -6.120    -6.263    -0.144     (0)  
+   ZnOHCl          1.606e-07   1.606e-07    -6.794    -6.794     0.000     (0)  
+   ZnCl4-2         1.367e-07   4.068e-08    -6.864    -7.391    -0.526     (0)  
+H(0)          3.396e-23
+   H2              1.698e-23   1.778e-23   -22.770   -22.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -46.821   -46.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.837e-04   1.371e-04    -3.736    -3.863    -0.127     (0)  
+   H(Propionate)   1.625e-05   1.625e-05    -4.789    -4.789     0.000     (0)  
+   Zn(Propionate)+   8.126e-08   6.065e-08    -7.090    -7.217    -0.127     (0)  
+   Zn(Propionate)2   3.604e-11   3.774e-11   -10.443   -10.423     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.671e-04   5.186e-05    -3.777    -4.285    -0.508     (0)  
+   ZnCl+           2.707e-05   1.944e-05    -4.567    -4.711    -0.144     (0)  
+   ZnCl2           4.599e-06   4.599e-06    -5.337    -5.337     0.000     (0)  
+   ZnCl3-          7.591e-07   5.452e-07    -6.120    -6.263    -0.144     (0)  
+   ZnOHCl          1.606e-07   1.606e-07    -6.794    -6.794     0.000     (0)  
+   ZnCl4-2         1.367e-07   4.068e-08    -6.864    -7.391    -0.526     (0)  
+   Zn(Propionate)+   8.126e-08   6.065e-08    -7.090    -7.217    -0.127     (0)  
+   ZnOH+           5.536e-08   3.273e-08    -7.257    -7.485    -0.228     (0)  
+   Zn(Propionate)2   3.604e-11   3.774e-11   -10.443   -10.423     0.020     (0)  
+   Zn(OH)2         3.273e-11   3.273e-11   -10.485   -10.485     0.000     (0)  
+   Zn(OH)3-        1.751e-15   1.035e-15   -14.757   -14.985    -0.228     (0)  
+   Zn(OH)4-2       2.130e-21   2.600e-22   -20.672   -21.585    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -43.90     39.19   83.09  O2
+  Zincite          -4.02      7.31   11.33  ZnO
+  Zn(OH)2          -4.89      7.31   12.20  Zn(OH)2
+  Zn(OH)2(am)      -5.17      7.31   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -4.45      7.31   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -4.23      7.31   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -4.43      7.31   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -7.20      7.99   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -15.20     23.30   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.29   25.79  Zn
+  ZnO(active)      -3.88      7.31   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 18.
+-------------------------------------
+
+	SOLUTION 16
+	pH		6.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 16.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   6.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.884e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.116e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              1.340e-06   1.000e-06    -5.873    -6.000    -0.127      0.00
+   OH-             1.415e-08   1.000e-08    -7.849    -8.000    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.705e-05   1.943e-05    -4.568    -4.712    -0.144     (0)  
+   ZnCl2           4.596e-06   4.596e-06    -5.338    -5.338     0.000     (0)  
+   ZnCl3-          7.586e-07   5.448e-07    -6.120    -6.264    -0.144     (0)  
+   ZnOHCl          2.544e-07   2.544e-07    -6.595    -6.595     0.000     (0)  
+   ZnCl4-2         1.366e-07   4.066e-08    -6.865    -7.391    -0.526     (0)  
+H(0)          1.352e-23
+   H2              6.760e-24   7.079e-24   -23.170   -23.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -46.021   -46.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.893e-04   1.413e-04    -3.723    -3.850    -0.127     (0)  
+   H(Propionate)   1.057e-05   1.057e-05    -4.976    -4.976     0.000     (0)  
+   Zn(Propionate)+   8.372e-08   6.248e-08    -7.077    -7.204    -0.127     (0)  
+   Zn(Propionate)2   3.828e-11   4.008e-11   -10.417   -10.397     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.670e-04   5.183e-05    -3.777    -4.285    -0.508     (0)  
+   ZnCl+           2.705e-05   1.943e-05    -4.568    -4.712    -0.144     (0)  
+   ZnCl2           4.596e-06   4.596e-06    -5.338    -5.338     0.000     (0)  
+   ZnCl3-          7.586e-07   5.448e-07    -6.120    -6.264    -0.144     (0)  
+   ZnOHCl          2.544e-07   2.544e-07    -6.595    -6.595     0.000     (0)  
+   ZnCl4-2         1.366e-07   4.066e-08    -6.865    -7.391    -0.526     (0)  
+   ZnOH+           8.769e-08   5.183e-08    -7.057    -7.285    -0.228     (0)  
+   Zn(Propionate)+   8.372e-08   6.248e-08    -7.077    -7.204    -0.127     (0)  
+   Zn(OH)2         8.216e-11   8.216e-11   -10.085   -10.085     0.000     (0)  
+   Zn(Propionate)2   3.828e-11   4.008e-11   -10.417   -10.397     0.020     (0)  
+   Zn(OH)3-        6.966e-15   4.118e-15   -14.157   -14.385    -0.228     (0)  
+   Zn(OH)4-2       1.343e-20   1.639e-21   -19.872   -20.785    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -43.10     39.99   83.09  O2
+  Zincite          -3.62      7.71   11.33  ZnO
+  Zn(OH)2          -4.49      7.71   12.20  Zn(OH)2
+  Zn(OH)2(am)      -4.77      7.71   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -4.05      7.71   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -3.83      7.71   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -4.03      7.71   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -6.60      8.59   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -13.60     24.90   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.29   25.79  Zn
+  ZnO(active)      -3.48      7.71   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 19.
+-------------------------------------
+
+	SOLUTION 17
+	pH		6.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 17.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   6.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.929e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.071e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              8.454e-07   6.310e-07    -6.073    -6.200    -0.127      0.00
+   OH-             2.243e-08   1.585e-08    -7.649    -7.800    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.703e-05   1.941e-05    -4.568    -4.712    -0.144     (0)  
+   ZnCl2           4.591e-06   4.591e-06    -5.338    -5.338     0.000     (0)  
+   ZnCl3-          7.578e-07   5.443e-07    -6.120    -6.264    -0.144     (0)  
+   ZnOHCl          4.028e-07   4.028e-07    -6.395    -6.395     0.000     (0)  
+   ZnCl4-2         1.365e-07   4.062e-08    -6.865    -7.391    -0.526     (0)  
+H(0)          5.383e-24
+   H2              2.691e-24   2.818e-24   -23.570   -23.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -45.221   -45.201     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.931e-04   1.441e-04    -3.714    -3.841    -0.127     (0)  
+   H(Propionate)   6.804e-06   6.804e-06    -5.167    -5.167     0.000     (0)  
+   Zn(Propionate)+   8.530e-08   6.366e-08    -7.069    -7.196    -0.127     (0)  
+   Zn(Propionate)2   3.977e-11   4.165e-11   -10.400   -10.380     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.669e-04   5.178e-05    -3.778    -4.286    -0.508     (0)  
+   ZnCl+           2.703e-05   1.941e-05    -4.568    -4.712    -0.144     (0)  
+   ZnCl2           4.591e-06   4.591e-06    -5.338    -5.338     0.000     (0)  
+   ZnCl3-          7.578e-07   5.443e-07    -6.120    -6.264    -0.144     (0)  
+   ZnOHCl          4.028e-07   4.028e-07    -6.395    -6.395     0.000     (0)  
+   ZnOH+           1.388e-07   8.207e-08    -6.857    -7.086    -0.228     (0)  
+   ZnCl4-2         1.365e-07   4.062e-08    -6.865    -7.391    -0.526     (0)  
+   Zn(Propionate)+   8.530e-08   6.366e-08    -7.069    -7.196    -0.127     (0)  
+   Zn(OH)2         2.062e-10   2.062e-10    -9.686    -9.686     0.000     (0)  
+   Zn(Propionate)2   3.977e-11   4.165e-11   -10.400   -10.380     0.020     (0)  
+   Zn(OH)3-        2.771e-14   1.638e-14   -13.557   -13.786    -0.228     (0)  
+   Zn(OH)4-2       8.464e-20   1.033e-20   -19.072   -19.986    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -42.30     40.79   83.09  O2
+  Zincite          -3.22      8.11   11.33  ZnO
+  Zn(OH)2          -4.09      8.11   12.20  Zn(OH)2
+  Zn(OH)2(am)      -4.37      8.11   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -3.65      8.11   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -3.43      8.11   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -3.63      8.11   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -6.00      9.19   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -12.01     26.49   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.07    -12.29   25.79  Zn
+  ZnO(active)      -3.08      8.11   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 20.
+-------------------------------------
+
+	SOLUTION 18
+	pH		6.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 18.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   6.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.960e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.040e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              5.334e-07   3.981e-07    -6.273    -6.400    -0.127      0.00
+   OH-             3.554e-08   2.512e-08    -7.449    -7.600    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.698e-05   1.938e-05    -4.569    -4.713    -0.144     (0)  
+   ZnCl2           4.584e-06   4.584e-06    -5.339    -5.339     0.000     (0)  
+   ZnCl3-          7.566e-07   5.434e-07    -6.121    -6.265    -0.144     (0)  
+   ZnOHCl          6.373e-07   6.373e-07    -6.196    -6.196     0.000     (0)  
+   ZnCl4-2         1.362e-07   4.055e-08    -6.866    -7.392    -0.526     (0)  
+H(0)          2.143e-24
+   H2              1.071e-24   1.122e-24   -23.970   -23.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -44.421   -44.401     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.956e-04   1.460e-04    -3.709    -3.836    -0.127     (0)  
+   H(Propionate)   4.347e-06   4.347e-06    -5.362    -5.362     0.000     (0)  
+   Zn(Propionate)+   8.625e-08   6.437e-08    -7.064    -7.191    -0.127     (0)  
+   Zn(Propionate)2   4.073e-11   4.265e-11   -10.390   -10.370     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.666e-04   5.169e-05    -3.778    -4.287    -0.508     (0)  
+   ZnCl+           2.698e-05   1.938e-05    -4.569    -4.713    -0.144     (0)  
+   ZnCl2           4.584e-06   4.584e-06    -5.339    -5.339     0.000     (0)  
+   ZnCl3-          7.566e-07   5.434e-07    -6.121    -6.265    -0.144     (0)  
+   ZnOHCl          6.373e-07   6.373e-07    -6.196    -6.196     0.000     (0)  
+   ZnOH+           2.197e-07   1.299e-07    -6.658    -6.887    -0.228     (0)  
+   ZnCl4-2         1.362e-07   4.055e-08    -6.866    -7.392    -0.526     (0)  
+   Zn(Propionate)+   8.625e-08   6.437e-08    -7.064    -7.191    -0.127     (0)  
+   Zn(OH)2         5.170e-10   5.170e-10    -9.286    -9.286     0.000     (0)  
+   Zn(Propionate)2   4.073e-11   4.265e-11   -10.390   -10.370     0.020     (0)  
+   Zn(OH)3-        1.101e-13   6.509e-14   -12.958   -13.186    -0.228     (0)  
+   Zn(OH)4-2       5.332e-19   6.510e-20   -18.273   -19.186    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -41.50     41.59   83.09  O2
+  Zincite          -2.82      8.51   11.33  ZnO
+  Zn(OH)2          -3.69      8.51   12.20  Zn(OH)2
+  Zn(OH)2(am)      -3.97      8.51   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -3.25      8.51   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -3.03      8.51   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -3.23      8.51   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -5.40      9.79   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2     -10.41     28.09   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.08    -12.29   25.79  Zn
+  ZnO(active)      -2.68      8.51   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 21.
+-------------------------------------
+
+	SOLUTION 19
+	pH		6.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 19.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   6.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.983e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   2.017e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550683e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              3.366e-07   2.512e-07    -6.473    -6.600    -0.127      0.00
+   OH-             5.633e-08   3.981e-08    -7.249    -7.400    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.692e-05   1.933e-05    -4.570    -4.714    -0.144     (0)  
+   ZnCl2           4.572e-06   4.572e-06    -5.340    -5.340     0.000     (0)  
+   ZnOHCl          1.008e-06   1.008e-06    -5.997    -5.997     0.000     (0)  
+   ZnCl3-          7.547e-07   5.420e-07    -6.122    -6.266    -0.144     (0)  
+   ZnCl4-2         1.359e-07   4.045e-08    -6.867    -7.393    -0.526     (0)  
+H(0)          8.531e-25
+   H2              4.265e-25   4.467e-25   -24.370   -24.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -43.621   -43.601     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.971e-04   1.471e-04    -3.705    -3.832    -0.127     (0)  
+   H(Propionate)   2.765e-06   2.765e-06    -5.558    -5.558     0.000     (0)  
+   Zn(Propionate)+   8.673e-08   6.473e-08    -7.062    -7.189    -0.127     (0)  
+   Zn(Propionate)2   4.128e-11   4.323e-11   -10.384   -10.364     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.662e-04   5.156e-05    -3.779    -4.288    -0.508     (0)  
+   ZnCl+           2.692e-05   1.933e-05    -4.570    -4.714    -0.144     (0)  
+   ZnCl2           4.572e-06   4.572e-06    -5.340    -5.340     0.000     (0)  
+   ZnOHCl          1.008e-06   1.008e-06    -5.997    -5.997     0.000     (0)  
+   ZnCl3-          7.547e-07   5.420e-07    -6.122    -6.266    -0.144     (0)  
+   ZnOH+           3.473e-07   2.053e-07    -6.459    -6.688    -0.228     (0)  
+   ZnCl4-2         1.359e-07   4.045e-08    -6.867    -7.393    -0.526     (0)  
+   Zn(Propionate)+   8.673e-08   6.473e-08    -7.062    -7.189    -0.127     (0)  
+   Zn(OH)2         1.295e-09   1.295e-09    -8.888    -8.888     0.000     (0)  
+   Zn(Propionate)2   4.128e-11   4.323e-11   -10.384   -10.364     0.020     (0)  
+   Zn(OH)3-        4.373e-13   2.585e-13   -12.359   -12.588    -0.228     (0)  
+   Zn(OH)4-2       3.356e-18   4.097e-19   -17.474   -18.388    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -40.70     42.39   83.09  O2
+  Zincite          -2.42      8.91   11.33  ZnO
+  Zn(OH)2          -3.29      8.91   12.20  Zn(OH)2
+  Zn(OH)2(am)      -3.57      8.91   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -2.85      8.91   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -2.63      8.91   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -2.83      8.91   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -4.80     10.39   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -8.81     29.69   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.08    -12.29   25.79  Zn
+  ZnO(active)      -2.28      8.91   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 22.
+-------------------------------------
+
+	SOLUTION 20
+	pH		6.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 20.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   6.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.003e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.997e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550684e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              2.124e-07   1.585e-07    -6.673    -6.800    -0.127      0.00
+   OH-             8.928e-08   6.310e-08    -7.049    -7.200    -0.151     (0)  
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.681e-05   1.925e-05    -4.572    -4.715    -0.144     (0)  
+   ZnCl2           4.554e-06   4.554e-06    -5.342    -5.342     0.000     (0)  
+   ZnOHCl          1.591e-06   1.591e-06    -5.798    -5.798     0.000     (0)  
+   ZnCl3-          7.517e-07   5.399e-07    -6.124    -6.268    -0.144     (0)  
+   ZnCl4-2         1.354e-07   4.029e-08    -6.868    -7.395    -0.526     (0)  
+H(0)          3.396e-25
+   H2              1.698e-25   1.778e-25   -24.770   -24.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -42.821   -42.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.982e-04   1.479e-04    -3.703    -3.830    -0.127     (0)  
+   H(Propionate)   1.754e-06   1.754e-06    -5.756    -5.756     0.000     (0)  
+   Zn(Propionate)+   8.683e-08   6.480e-08    -7.061    -7.188    -0.127     (0)  
+   Zn(Propionate)2   4.154e-11   4.351e-11   -10.381   -10.361     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.655e-04   5.136e-05    -3.781    -4.289    -0.508     (0)  
+   ZnCl+           2.681e-05   1.925e-05    -4.572    -4.715    -0.144     (0)  
+   ZnCl2           4.554e-06   4.554e-06    -5.342    -5.342     0.000     (0)  
+   ZnOHCl          1.591e-06   1.591e-06    -5.798    -5.798     0.000     (0)  
+   ZnCl3-          7.517e-07   5.399e-07    -6.124    -6.268    -0.144     (0)  
+   ZnOH+           5.483e-07   3.241e-07    -6.261    -6.489    -0.228     (0)  
+   ZnCl4-2         1.354e-07   4.029e-08    -6.868    -7.395    -0.526     (0)  
+   Zn(Propionate)+   8.683e-08   6.480e-08    -7.061    -7.188    -0.127     (0)  
+   Zn(OH)2         3.241e-09   3.241e-09    -8.489    -8.489     0.000     (0)  
+   Zn(Propionate)2   4.154e-11   4.351e-11   -10.381   -10.361     0.020     (0)  
+   Zn(OH)3-        1.734e-12   1.025e-12   -11.761   -11.989    -0.228     (0)  
+   Zn(OH)4-2       2.109e-17   2.575e-18   -16.676   -17.589    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -39.90     43.19   83.09  O2
+  Zincite          -2.03      9.31   11.33  ZnO
+  Zn(OH)2          -2.90      9.30   12.20  Zn(OH)2
+  Zn(OH)2(am)      -3.17      9.30   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -2.45      9.30   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -2.23      9.30   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -2.43      9.30   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -4.20     10.99   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -7.22     31.28   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.08    -12.29   25.79  Zn
+  ZnO(active)      -1.88      9.31   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 23.
+-------------------------------------
+
+	SOLUTION 21
+	pH		7.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 21.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.023e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.977e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550684e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.415e-07   1.000e-07    -6.849    -7.000    -0.151     (0)  
+   H+              1.340e-07   1.000e-07    -6.873    -7.000    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.664e-05   1.913e-05    -4.574    -4.718    -0.144     (0)  
+   ZnCl2           4.526e-06   4.526e-06    -5.344    -5.344     0.000     (0)  
+   ZnOHCl          2.505e-06   2.505e-06    -5.601    -5.601     0.000     (0)  
+   ZnCl3-          7.470e-07   5.365e-07    -6.127    -6.270    -0.144     (0)  
+   ZnCl4-2         1.345e-07   4.004e-08    -6.871    -7.398    -0.526     (0)  
+H(0)          1.352e-25
+   H2              6.760e-26   7.079e-26   -25.170   -25.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -42.021   -42.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.988e-04   1.484e-04    -3.702    -3.829    -0.127     (0)  
+   H(Propionate)   1.110e-06   1.110e-06    -5.955    -5.955     0.000     (0)  
+   Zn(Propionate)+   8.656e-08   6.461e-08    -7.063    -7.190    -0.127     (0)  
+   Zn(Propionate)2   4.155e-11   4.352e-11   -10.381   -10.361     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.645e-04   5.104e-05    -3.784    -4.292    -0.508     (0)  
+   ZnCl+           2.664e-05   1.913e-05    -4.574    -4.718    -0.144     (0)  
+   ZnCl2           4.526e-06   4.526e-06    -5.344    -5.344     0.000     (0)  
+   ZnOHCl          2.505e-06   2.505e-06    -5.601    -5.601     0.000     (0)  
+   ZnOH+           8.635e-07   5.104e-07    -6.064    -6.292    -0.228     (0)  
+   ZnCl3-          7.470e-07   5.365e-07    -6.127    -6.270    -0.144     (0)  
+   ZnCl4-2         1.345e-07   4.004e-08    -6.871    -7.398    -0.526     (0)  
+   Zn(Propionate)+   8.656e-08   6.461e-08    -7.063    -7.190    -0.127     (0)  
+   Zn(OH)2         8.091e-09   8.091e-09    -8.092    -8.092     0.000     (0)  
+   Zn(Propionate)2   4.155e-11   4.352e-11   -10.381   -10.361     0.020     (0)  
+   Zn(OH)3-        6.860e-12   4.055e-12   -11.164   -11.392    -0.228     (0)  
+   Zn(OH)4-2       1.322e-16   1.615e-17   -15.879   -16.792    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -39.10     43.99   83.09  O2
+  Zincite          -1.63      9.70   11.33  ZnO
+  Zn(OH)2          -2.50      9.70   12.20  Zn(OH)2
+  Zn(OH)2(am)      -2.77      9.70   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -2.05      9.70   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -1.83      9.70   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -2.03      9.70   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -3.61     11.58   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -5.64     32.86   38.50  Zn5(OH)8Cl2
+  ZnCl2           -12.99     -5.94    7.05  ZnCl2
+  Znmetal         -38.08    -12.29   25.79  Zn
+  ZnO(active)      -1.48      9.70   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 24.
+-------------------------------------
+
+	SOLUTION 22
+	pH		7.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 22.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.048e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.952e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550684e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             2.243e-07   1.585e-07    -6.649    -6.800    -0.151     (0)  
+   H+              8.454e-08   6.310e-08    -7.073    -7.200    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.638e-05   1.895e-05    -4.579    -4.722    -0.144     (0)  
+   ZnCl2           4.481e-06   4.481e-06    -5.349    -5.349     0.000     (0)  
+   ZnOHCl          3.931e-06   3.931e-06    -5.405    -5.405     0.000     (0)  
+   ZnCl3-          7.397e-07   5.312e-07    -6.131    -6.275    -0.144     (0)  
+   ZnCl4-2         1.332e-07   3.964e-08    -6.876    -7.402    -0.526     (0)  
+H(0)          5.383e-26
+   H2              2.691e-26   2.818e-26   -25.570   -25.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -41.221   -41.201     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.992e-04   1.487e-04    -3.701    -3.828    -0.127     (0)  
+   H(Propionate)   7.019e-07   7.019e-07    -6.154    -6.154     0.000     (0)  
+   Zn(Propionate)+   8.589e-08   6.410e-08    -7.066    -7.193    -0.127     (0)  
+   Zn(Propionate)2   4.132e-11   4.327e-11   -10.384   -10.364     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.629e-04   5.054e-05    -3.788    -4.296    -0.508     (0)  
+   ZnCl+           2.638e-05   1.895e-05    -4.579    -4.722    -0.144     (0)  
+   ZnCl2           4.481e-06   4.481e-06    -5.349    -5.349     0.000     (0)  
+   ZnOHCl          3.931e-06   3.931e-06    -5.405    -5.405     0.000     (0)  
+   ZnOH+           1.355e-06   8.011e-07    -5.868    -6.096    -0.228     (0)  
+   ZnCl3-          7.397e-07   5.312e-07    -6.131    -6.275    -0.144     (0)  
+   ZnCl4-2         1.332e-07   3.964e-08    -6.876    -7.402    -0.526     (0)  
+   Zn(Propionate)+   8.589e-08   6.410e-08    -7.066    -7.193    -0.127     (0)  
+   Zn(OH)2         2.012e-08   2.012e-08    -7.696    -7.696     0.000     (0)  
+   Zn(Propionate)2   4.132e-11   4.327e-11   -10.384   -10.364     0.020     (0)  
+   Zn(OH)3-        2.704e-11   1.599e-11   -10.568   -10.796    -0.228     (0)  
+   Zn(OH)4-2       8.262e-16   1.009e-16   -15.083   -15.996    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -38.30     44.79   83.09  O2
+  Zincite          -1.23     10.10   11.33  ZnO
+  Zn(OH)2          -2.10     10.10   12.20  Zn(OH)2
+  Zn(OH)2(am)      -2.38     10.10   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -1.66     10.10   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -1.44     10.10   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -1.64     10.10   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -3.02     12.17   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -4.06     34.44   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.00     -5.95    7.05  ZnCl2
+  Znmetal         -38.08    -12.30   25.79  Zn
+  ZnO(active)      -1.09     10.10   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 25.
+-------------------------------------
+
+	SOLUTION 23
+	pH		7.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 23.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.082e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.918e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550684e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.554e-07   2.512e-07    -6.449    -6.600    -0.151     (0)  
+   H+              5.334e-08   3.981e-08    -7.273    -7.400    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.597e-05   1.865e-05    -4.585    -4.729    -0.144     (0)  
+   ZnOHCl          6.135e-06   6.135e-06    -5.212    -5.212     0.000     (0)  
+   ZnCl2           4.412e-06   4.412e-06    -5.355    -5.355     0.000     (0)  
+   ZnCl3-          7.283e-07   5.231e-07    -6.138    -6.281    -0.144     (0)  
+   ZnCl4-2         1.311e-07   3.903e-08    -6.882    -7.409    -0.526     (0)  
+H(0)          2.143e-26
+   H2              1.071e-26   1.122e-26   -25.970   -25.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -40.421   -40.401     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.995e-04   1.489e-04    -3.700    -3.827    -0.127     (0)  
+   H(Propionate)   4.434e-07   4.434e-07    -6.353    -6.353     0.000     (0)  
+   Zn(Propionate)+   8.468e-08   6.320e-08    -7.072    -7.199    -0.127     (0)  
+   Zn(Propionate)2   4.079e-11   4.271e-11   -10.389   -10.369     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.604e-04   4.976e-05    -3.795    -4.303    -0.508     (0)  
+   ZnCl+           2.597e-05   1.865e-05    -4.585    -4.729    -0.144     (0)  
+   ZnOHCl          6.135e-06   6.135e-06    -5.212    -5.212     0.000     (0)  
+   ZnCl2           4.412e-06   4.412e-06    -5.355    -5.355     0.000     (0)  
+   ZnOH+           2.115e-06   1.250e-06    -5.675    -5.903    -0.228     (0)  
+   ZnCl3-          7.283e-07   5.231e-07    -6.138    -6.281    -0.144     (0)  
+   ZnCl4-2         1.311e-07   3.903e-08    -6.882    -7.409    -0.526     (0)  
+   Zn(Propionate)+   8.468e-08   6.320e-08    -7.072    -7.199    -0.127     (0)  
+   Zn(OH)2         4.977e-08   4.977e-08    -7.303    -7.303     0.000     (0)  
+   Zn(OH)3-        1.060e-10   6.266e-11    -9.975   -10.203    -0.228     (0)  
+   Zn(Propionate)2   4.079e-11   4.271e-11   -10.389   -10.369     0.020     (0)  
+   Zn(OH)4-2       5.133e-15   6.267e-16   -14.290   -15.203    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -37.50     45.59   83.09  O2
+  Zincite          -0.84     10.49   11.33  ZnO
+  Zn(OH)2          -1.71     10.49   12.20  Zn(OH)2
+  Zn(OH)2(am)      -1.98     10.49   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -1.26     10.49   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -1.04     10.49   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -1.24     10.49   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -2.43     12.76   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -2.49     36.01   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.01     -5.96    7.05  ZnCl2
+  Znmetal         -38.09    -12.30   25.79  Zn
+  ZnO(active)      -0.69     10.49   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 26.
+-------------------------------------
+
+	SOLUTION 24
+	pH		7.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 24.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.133e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.867e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.05
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550685e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             5.633e-07   3.981e-07    -6.249    -6.400    -0.151     (0)  
+   H+              3.366e-08   2.512e-08    -7.473    -7.600    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.535e-05   1.821e-05    -4.596    -4.740    -0.144     (0)  
+   ZnOHCl          9.491e-06   9.491e-06    -5.023    -5.023     0.000     (0)  
+   ZnCl2           4.307e-06   4.307e-06    -5.366    -5.366     0.000     (0)  
+   ZnCl3-          7.109e-07   5.105e-07    -6.148    -6.292    -0.144     (0)  
+   ZnCl4-2         1.280e-07   3.810e-08    -6.893    -7.419    -0.526     (0)  
+H(0)          8.531e-27
+   H2              4.265e-27   4.467e-27   -26.370   -26.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          4.786e-40
+   O2              2.393e-40   2.506e-40   -39.621   -39.601     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.996e-04   1.490e-04    -3.700    -3.827    -0.127     (0)  
+   H(Propionate)   2.800e-07   2.800e-07    -6.553    -6.553     0.000     (0)  
+   Zn(Propionate)+   8.273e-08   6.174e-08    -7.082    -7.209    -0.127     (0)  
+   Zn(Propionate)2   3.988e-11   4.176e-11   -10.399   -10.379     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.565e-04   4.857e-05    -3.805    -4.314    -0.508     (0)  
+   ZnCl+           2.535e-05   1.821e-05    -4.596    -4.740    -0.144     (0)  
+   ZnOHCl          9.491e-06   9.491e-06    -5.023    -5.023     0.000     (0)  
+   ZnCl2           4.307e-06   4.307e-06    -5.366    -5.366     0.000     (0)  
+   ZnOH+           3.272e-06   1.934e-06    -5.485    -5.714    -0.228     (0)  
+   ZnCl3-          7.109e-07   5.105e-07    -6.148    -6.292    -0.144     (0)  
+   ZnCl4-2         1.280e-07   3.810e-08    -6.893    -7.419    -0.526     (0)  
+   Zn(OH)2         1.220e-07   1.220e-07    -6.914    -6.914     0.000     (0)  
+   Zn(Propionate)+   8.273e-08   6.174e-08    -7.082    -7.209    -0.127     (0)  
+   Zn(OH)3-        4.119e-10   2.435e-10    -9.385    -9.614    -0.228     (0)  
+   Zn(Propionate)2   3.988e-11   4.176e-11   -10.399   -10.379     0.020     (0)  
+   Zn(OH)4-2       3.161e-14   3.860e-15   -13.500   -14.413    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -36.70     46.39   83.09  O2
+  Zincite          -0.45     10.88   11.33  ZnO
+  Zn(OH)2          -1.32     10.88   12.20  Zn(OH)2
+  Zn(OH)2(am)      -1.59     10.88   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -0.87     10.88   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -0.65     10.88   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -0.85     10.88   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -1.85     13.34   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2      -0.94     37.56   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.02     -5.97    7.05  ZnCl2
+  Znmetal         -38.10    -12.31   25.79  Zn
+  ZnO(active)      -0.30     10.88   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 27.
+-------------------------------------
+
+	SOLUTION 25
+	pH		7.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 25.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.208e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.792e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.04
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550685e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             8.928e-07   6.310e-07    -6.049    -6.200    -0.151     (0)  
+   H+              2.123e-08   1.585e-08    -7.673    -7.800    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.442e-05   1.754e-05    -4.612    -4.756    -0.144     (0)  
+   ZnOHCl          1.449e-05   1.449e-05    -4.839    -4.839     0.000     (0)  
+   ZnCl2           4.148e-06   4.148e-06    -5.382    -5.382     0.000     (0)  
+   ZnCl3-          6.846e-07   4.917e-07    -6.165    -6.308    -0.144     (0)  
+   ZnCl4-2         1.233e-07   3.669e-08    -6.909    -7.435    -0.526     (0)  
+H(0)          3.396e-27
+   H2              1.698e-27   1.778e-27   -26.770   -26.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          3.020e-39
+   O2              1.510e-39   1.581e-39   -38.821   -38.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.997e-04   1.491e-04    -3.700    -3.827    -0.127     (0)  
+   H(Propionate)   1.768e-07   1.768e-07    -6.753    -6.753     0.000     (0)  
+   Zn(Propionate)+   7.972e-08   5.950e-08    -7.098    -7.225    -0.127     (0)  
+   Zn(Propionate)2   3.845e-11   4.027e-11   -10.415   -10.395     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.508e-04   4.678e-05    -3.822    -4.330    -0.508     (0)  
+   ZnCl+           2.442e-05   1.754e-05    -4.612    -4.756    -0.144     (0)  
+   ZnOHCl          1.449e-05   1.449e-05    -4.839    -4.839     0.000     (0)  
+   ZnOH+           4.994e-06   2.952e-06    -5.302    -5.530    -0.228     (0)  
+   ZnCl2           4.148e-06   4.148e-06    -5.382    -5.382     0.000     (0)  
+   ZnCl3-          6.846e-07   4.917e-07    -6.165    -6.308    -0.144     (0)  
+   Zn(OH)2         2.952e-07   2.952e-07    -6.530    -6.530     0.000     (0)  
+   ZnCl4-2         1.233e-07   3.669e-08    -6.909    -7.435    -0.526     (0)  
+   Zn(Propionate)+   7.972e-08   5.950e-08    -7.098    -7.225    -0.127     (0)  
+   Zn(OH)3-        1.579e-09   9.337e-10    -8.801    -9.030    -0.228     (0)  
+   Zn(Propionate)2   3.845e-11   4.027e-11   -10.415   -10.395     0.020     (0)  
+   Zn(OH)4-2       1.921e-13   2.346e-14   -12.717   -13.630    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -35.90     47.19   83.09  O2
+  Zincite          -0.07     11.27   11.33  ZnO
+  Zn(OH)2          -0.94     11.26   12.20  Zn(OH)2
+  Zn(OH)2(am)      -1.21     11.26   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -0.49     11.26   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)  -0.27     11.26   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -0.47     11.26   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -1.29     13.91   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       0.57     39.07   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.03     -5.98    7.05  ZnCl2
+  Znmetal         -38.12    -12.33   25.79  Zn
+  ZnO(active)       0.08     11.27   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 28.
+-------------------------------------
+
+	SOLUTION 26
+	pH		8.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 26.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   8.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.004e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.319e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.681e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.04
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550686e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.415e-06   1.000e-06    -5.849    -6.000    -0.151     (0)  
+   H+              1.340e-08   1.000e-08    -7.873    -8.000    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnCl+           2.305e-05   1.656e-05    -4.637    -4.781    -0.144     (0)  
+   ZnOHCl          2.168e-05   2.168e-05    -4.664    -4.664     0.000     (0)  
+   ZnCl2           3.916e-06   3.916e-06    -5.407    -5.407     0.000     (0)  
+   ZnCl3-          6.463e-07   4.642e-07    -6.190    -6.333    -0.144     (0)  
+   ZnCl4-2         1.164e-07   3.464e-08    -6.934    -7.460    -0.526     (0)  
+H(0)          1.352e-27
+   H2              6.760e-28   7.079e-28   -27.170   -27.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          1.905e-38
+   O2              9.527e-39   9.977e-39   -38.021   -38.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.998e-04   1.491e-04    -3.699    -3.826    -0.127     (0)  
+   H(Propionate)   1.116e-07   1.116e-07    -6.952    -6.952     0.000     (0)  
+   Zn(Propionate)+   7.529e-08   5.619e-08    -7.123    -7.250    -0.127     (0)  
+   Zn(Propionate)2   3.633e-11   3.804e-11   -10.440   -10.420     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.423e-04   4.417e-05    -3.847    -4.355    -0.508     (0)  
+   ZnCl+           2.305e-05   1.656e-05    -4.637    -4.781    -0.144     (0)  
+   ZnOHCl          2.168e-05   2.168e-05    -4.664    -4.664     0.000     (0)  
+   ZnOH+           7.472e-06   4.417e-06    -5.127    -5.355    -0.228     (0)  
+   ZnCl2           3.916e-06   3.916e-06    -5.407    -5.407     0.000     (0)  
+   Zn(OH)2         7.001e-07   7.001e-07    -6.155    -6.155     0.000     (0)  
+   ZnCl3-          6.463e-07   4.642e-07    -6.190    -6.333    -0.144     (0)  
+   ZnCl4-2         1.164e-07   3.464e-08    -6.934    -7.460    -0.526     (0)  
+   Zn(Propionate)+   7.529e-08   5.619e-08    -7.123    -7.250    -0.127     (0)  
+   Zn(OH)3-        5.936e-09   3.509e-09    -8.226    -8.455    -0.228     (0)  
+   Zn(Propionate)2   3.633e-11   3.804e-11   -10.440   -10.420     0.020     (0)  
+   Zn(OH)4-2       1.144e-12   1.397e-13   -11.942   -12.855    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -35.10     47.99   83.09  O2
+  Zincite           0.31     11.64   11.33  ZnO
+  Zn(OH)2          -0.56     11.64   12.20  Zn(OH)2
+  Zn(OH)2(am)      -0.83     11.64   12.47  Zn(OH)2
+  Zn(OH)2(beta)    -0.11     11.64   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   0.11     11.64   11.53  Zn(OH)2
+  Zn(OH)2(gamma)   -0.09     11.64   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -0.74     14.46   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       2.05     40.55   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.06     -6.01    7.05  ZnCl2
+  Znmetal         -38.14    -12.35   25.79  Zn
+  ZnO(active)       0.45     11.64   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 29.
+-------------------------------------
+
+	SOLUTION 27
+	pH		8.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 27.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   8.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.003e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.478e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.522e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.04
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550688e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             2.243e-06   1.585e-06    -5.649    -5.800    -0.151     (0)  
+   H+              8.454e-09   6.310e-09    -8.073    -8.200    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          3.150e-05   3.150e-05    -4.502    -4.502     0.000     (0)  
+   ZnCl+           2.114e-05   1.518e-05    -4.675    -4.819    -0.144     (0)  
+   ZnCl2           3.590e-06   3.590e-06    -5.445    -5.445     0.000     (0)  
+   ZnCl3-          5.926e-07   4.256e-07    -6.227    -6.371    -0.144     (0)  
+   ZnCl4-2         1.067e-07   3.176e-08    -6.972    -7.498    -0.526     (0)  
+H(0)          5.383e-28
+   H2              2.691e-28   2.818e-28   -27.570   -27.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          1.202e-37
+   O2              6.011e-38   6.295e-38   -37.221   -37.201     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.999e-04   1.492e-04    -3.699    -3.826    -0.127     (0)  
+   H(Propionate)   7.042e-08   7.042e-08    -7.152    -7.152     0.000     (0)  
+   Zn(Propionate)+   6.905e-08   5.154e-08    -7.161    -7.288    -0.127     (0)  
+   Zn(Propionate)2   3.333e-11   3.490e-11   -10.477   -10.457     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.305e-04   4.050e-05    -3.884    -4.393    -0.508     (0)  
+   ZnOHCl          3.150e-05   3.150e-05    -4.502    -4.502     0.000     (0)  
+   ZnCl+           2.114e-05   1.518e-05    -4.675    -4.819    -0.144     (0)  
+   ZnOH+           1.086e-05   6.419e-06    -4.964    -5.193    -0.228     (0)  
+   ZnCl2           3.590e-06   3.590e-06    -5.445    -5.445     0.000     (0)  
+   Zn(OH)2         1.613e-06   1.613e-06    -5.792    -5.792     0.000     (0)  
+   ZnCl3-          5.926e-07   4.256e-07    -6.227    -6.371    -0.144     (0)  
+   ZnCl4-2         1.067e-07   3.176e-08    -6.972    -7.498    -0.526     (0)  
+   Zn(Propionate)+   6.905e-08   5.154e-08    -7.161    -7.288    -0.127     (0)  
+   Zn(OH)3-        2.167e-08   1.281e-08    -7.664    -7.892    -0.228     (0)  
+   Zn(Propionate)2   3.333e-11   3.490e-11   -10.477   -10.457     0.020     (0)  
+   Zn(OH)4-2       6.618e-12   8.083e-13   -11.179   -12.092    -0.913     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -34.30     48.79   83.09  O2
+  Zincite           0.67     12.00   11.33  ZnO
+  Zn(OH)2          -0.20     12.00   12.20  Zn(OH)2
+  Zn(OH)2(am)      -0.47     12.00   12.47  Zn(OH)2
+  Zn(OH)2(beta)     0.25     12.00   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   0.47     12.00   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    0.27     12.00   11.73  Zn(OH)2
+  Zn2(OH)3Cl       -0.21     14.98   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       3.46     41.96   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.09     -6.04    7.05  ZnCl2
+  Znmetal         -38.18    -12.39   25.79  Zn
+  ZnO(active)       0.82     12.00   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 30.
+-------------------------------------
+
+	SOLUTION 28
+	pH		8.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 28.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   8.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.003e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.699e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.301e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.03
+                               Iterations  =   4
+                                  Total H  = 1.110137e+02
+                                  Total O  = 5.550690e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.554e-06   2.512e-06    -5.449    -5.600    -0.151     (0)  
+   H+              5.334e-09   3.981e-09    -8.273    -8.400    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          4.393e-05   4.393e-05    -4.357    -4.357     0.000     (0)  
+   ZnCl+           1.860e-05   1.336e-05    -4.730    -4.874    -0.144     (0)  
+   ZnCl2           3.159e-06   3.159e-06    -5.500    -5.500     0.000     (0)  
+   ZnCl3-          5.214e-07   3.745e-07    -6.283    -6.427    -0.144     (0)  
+   ZnCl4-2         9.387e-08   2.794e-08    -7.027    -7.554    -0.526     (0)  
+H(0)          2.143e-28
+   H2              1.071e-28   1.122e-28   -27.970   -27.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          7.586e-37
+   O2              3.793e-37   3.972e-37   -36.421   -36.401     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.999e-04   1.492e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   6.078e-08   4.536e-08    -7.216    -7.343    -0.127     (0)  
+   H(Propionate)   4.444e-08   4.444e-08    -7.352    -7.352     0.000     (0)  
+   Zn(Propionate)2   2.934e-11   3.072e-11   -10.533   -10.513     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            1.148e-04   3.564e-05    -3.940    -4.448    -0.508     (0)  
+   ZnOHCl          4.393e-05   4.393e-05    -4.357    -4.357     0.000     (0)  
+   ZnCl+           1.860e-05   1.336e-05    -4.730    -4.874    -0.144     (0)  
+   ZnOH+           1.514e-05   8.953e-06    -4.820    -5.048    -0.228     (0)  
+   Zn(OH)2         3.565e-06   3.565e-06    -5.448    -5.448     0.000     (0)  
+   ZnCl2           3.159e-06   3.159e-06    -5.500    -5.500     0.000     (0)  
+   ZnCl3-          5.214e-07   3.745e-07    -6.283    -6.427    -0.144     (0)  
+   ZnCl4-2         9.387e-08   2.794e-08    -7.027    -7.554    -0.526     (0)  
+   Zn(OH)3-        7.591e-08   4.488e-08    -7.120    -7.348    -0.228     (0)  
+   Zn(Propionate)+   6.078e-08   4.536e-08    -7.216    -7.343    -0.127     (0)  
+   Zn(OH)4-2       3.674e-11   4.488e-12   -10.435   -11.348    -0.913     (0)  
+   Zn(Propionate)2   2.934e-11   3.072e-11   -10.533   -10.513     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -33.50     49.59   83.09  O2
+  Zincite           1.01     12.35   11.33  ZnO
+  Zn(OH)2           0.15     12.35   12.20  Zn(OH)2
+  Zn(OH)2(am)      -0.13     12.35   12.47  Zn(OH)2
+  Zn(OH)2(beta)     0.59     12.35   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   0.81     12.35   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    0.61     12.35   11.73  Zn(OH)2
+  Zn2(OH)3Cl        0.28     15.47   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       4.78     43.28   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.15     -6.10    7.05  ZnCl2
+  Znmetal         -38.24    -12.45   25.79  Zn
+  ZnO(active)       1.16     12.35   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 31.
+-------------------------------------
+
+	SOLUTION 29
+	pH		8.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 29.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   8.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.003e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   2.992e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.008e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.03
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550693e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             5.633e-06   3.981e-06    -5.249    -5.400    -0.151     (0)  
+   H+              3.365e-09   2.512e-09    -8.473    -8.600    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          5.799e-05   5.799e-05    -4.237    -4.237     0.000     (0)  
+   ZnCl+           1.549e-05   1.112e-05    -4.810    -4.954    -0.144     (0)  
+   ZnCl2           2.631e-06   2.631e-06    -5.580    -5.580     0.000     (0)  
+   ZnCl3-          4.342e-07   3.118e-07    -6.362    -6.506    -0.144     (0)  
+   ZnCl4-2         7.815e-08   2.327e-08    -7.107    -7.633    -0.526     (0)  
+H(0)          8.531e-29
+   H2              4.266e-29   4.467e-29   -28.370   -28.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          4.786e-36
+   O2              2.393e-36   2.506e-36   -35.621   -35.601     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.999e-04   1.492e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   5.062e-08   3.778e-08    -7.296    -7.423    -0.127     (0)  
+   H(Propionate)   2.804e-08   2.804e-08    -7.552    -7.552     0.000     (0)  
+   Zn(Propionate)2   2.444e-11   2.559e-11   -10.612   -10.592     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            9.564e-05   2.968e-05    -4.019    -4.528    -0.508     (0)  
+   ZnOHCl          5.799e-05   5.799e-05    -4.237    -4.237     0.000     (0)  
+   ZnOH+           1.999e-05   1.182e-05    -4.699    -4.927    -0.228     (0)  
+   ZnCl+           1.549e-05   1.112e-05    -4.810    -4.954    -0.144     (0)  
+   Zn(OH)2         7.457e-06   7.457e-06    -5.127    -5.127     0.000     (0)  
+   ZnCl2           2.631e-06   2.631e-06    -5.580    -5.580     0.000     (0)  
+   ZnCl3-          4.342e-07   3.118e-07    -6.362    -6.506    -0.144     (0)  
+   Zn(OH)3-        2.517e-07   1.488e-07    -6.599    -6.827    -0.228     (0)  
+   ZnCl4-2         7.815e-08   2.327e-08    -7.107    -7.633    -0.526     (0)  
+   Zn(Propionate)+   5.062e-08   3.778e-08    -7.296    -7.423    -0.127     (0)  
+   Zn(OH)4-2       1.930e-10   2.358e-11    -9.714   -10.627    -0.913     (0)  
+   Zn(Propionate)2   2.444e-11   2.559e-11   -10.612   -10.592     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -32.70     50.39   83.09  O2
+  Zincite           1.34     12.67   11.33  ZnO
+  Zn(OH)2           0.47     12.67   12.20  Zn(OH)2
+  Zn(OH)2(am)       0.19     12.67   12.47  Zn(OH)2
+  Zn(OH)2(beta)     0.91     12.67   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   1.13     12.67   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    0.93     12.67   11.73  Zn(OH)2
+  Zn2(OH)3Cl        0.72     15.91   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       5.99     44.49   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.23     -6.18    7.05  ZnCl2
+  Znmetal         -38.32    -12.53   25.79  Zn
+  ZnO(active)       1.48     12.67   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 32.
+-------------------------------------
+
+	SOLUTION 30
+	pH		8.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 30.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   8.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.002e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   3.363e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   6.374e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.02
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550697e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             8.927e-06   6.310e-06    -5.049    -5.200    -0.151     (0)  
+   H+              2.123e-09   1.585e-09    -8.673    -8.800    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          7.134e-05   7.134e-05    -4.147    -4.147     0.000     (0)  
+   ZnCl+           1.202e-05   8.636e-06    -4.920    -5.064    -0.144     (0)  
+   ZnCl2           2.042e-06   2.042e-06    -5.690    -5.690     0.000     (0)  
+   ZnCl3-          3.370e-07   2.421e-07    -6.472    -6.616    -0.144     (0)  
+   ZnCl4-2         6.066e-08   1.806e-08    -7.217    -7.743    -0.526     (0)  
+H(0)          3.396e-29
+   H2              1.698e-29   1.778e-29   -28.770   -28.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          3.020e-35
+   O2              1.510e-35   1.581e-35   -34.821   -34.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     1.999e-04   1.492e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   3.930e-08   2.934e-08    -7.406    -7.533    -0.127     (0)  
+   H(Propionate)   1.770e-08   1.770e-08    -7.752    -7.752     0.000     (0)  
+   Zn(Propionate)2   1.898e-11   1.987e-11   -10.722   -10.702     0.020     (0)  
+Zn            2.000e-04
+   Zn+2            7.424e-05   2.304e-05    -4.129    -4.637    -0.508     (0)  
+   ZnOHCl          7.134e-05   7.134e-05    -4.147    -4.147     0.000     (0)  
+   ZnOH+           2.459e-05   1.454e-05    -4.609    -4.837    -0.228     (0)  
+   Zn(OH)2         1.454e-05   1.454e-05    -4.837    -4.837     0.000     (0)  
+   ZnCl+           1.202e-05   8.636e-06    -4.920    -5.064    -0.144     (0)  
+   ZnCl2           2.042e-06   2.042e-06    -5.690    -5.690     0.000     (0)  
+   Zn(OH)3-        7.778e-07   4.599e-07    -6.109    -6.337    -0.228     (0)  
+   ZnCl3-          3.370e-07   2.421e-07    -6.472    -6.616    -0.144     (0)  
+   ZnCl4-2         6.066e-08   1.806e-08    -7.217    -7.743    -0.526     (0)  
+   Zn(Propionate)+   3.930e-08   2.934e-08    -7.406    -7.533    -0.127     (0)  
+   Zn(OH)4-2       9.452e-10   1.155e-10    -9.024    -9.937    -0.913     (0)  
+   Zn(Propionate)2   1.898e-11   1.987e-11   -10.722   -10.702     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -31.90     51.19   83.09  O2
+  Zincite           1.63     12.96   11.33  ZnO
+  Zn(OH)2           0.76     12.96   12.20  Zn(OH)2
+  Zn(OH)2(am)       0.48     12.96   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.20     12.96   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   1.42     12.96   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    1.22     12.96   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.10     16.29   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       7.04     45.54   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.34     -6.29    7.05  ZnCl2
+  Znmetal         -38.43    -12.64   25.79  Zn
+  ZnO(active)       1.77     12.96   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 33.
+-------------------------------------
+
+	SOLUTION 31
+	pH		9.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 31.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   9.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.002e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   3.813e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   1.868e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
+                               Iterations  =   4
+                                  Total H  = 1.110138e+02
+                                  Total O  = 5.550701e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.415e-05   1.000e-05    -4.849    -5.000    -0.151     (0)  
+   H+              1.340e-09   1.000e-09    -8.873    -9.000    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          8.065e-05   8.065e-05    -4.093    -4.093     0.000     (0)  
+   ZnCl+           8.576e-06   6.160e-06    -5.067    -5.210    -0.144     (0)  
+   ZnCl2           1.457e-06   1.457e-06    -5.837    -5.837     0.000     (0)  
+   ZnCl3-          2.404e-07   1.726e-07    -6.619    -6.763    -0.144     (0)  
+   ZnCl4-2         4.326e-08   1.288e-08    -7.364    -7.890    -0.526     (0)  
+H(0)          1.352e-29
+   H2              6.761e-30   7.079e-30   -29.170   -29.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          1.905e-34
+   O2              9.527e-35   9.977e-35   -34.021   -34.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   2.803e-08   2.093e-08    -7.552    -7.679    -0.127     (0)  
+   H(Propionate)   1.117e-08   1.117e-08    -7.952    -7.952     0.000     (0)  
+   Zn(Propionate)2   1.354e-11   1.418e-11   -10.868   -10.848     0.020     (0)  
+Zn            2.000e-04
+   ZnOHCl          8.065e-05   8.065e-05    -4.093    -4.093     0.000     (0)  
+   Zn+2            5.295e-05   1.643e-05    -4.276    -4.784    -0.508     (0)  
+   ZnOH+           2.780e-05   1.644e-05    -4.556    -4.784    -0.228     (0)  
+   Zn(OH)2         2.605e-05   2.605e-05    -4.584    -4.584     0.000     (0)  
+   ZnCl+           8.576e-06   6.160e-06    -5.067    -5.210    -0.144     (0)  
+   Zn(OH)3-        2.208e-06   1.306e-06    -5.656    -5.884    -0.228     (0)  
+   ZnCl2           1.457e-06   1.457e-06    -5.837    -5.837     0.000     (0)  
+   ZnCl3-          2.404e-07   1.726e-07    -6.619    -6.763    -0.144     (0)  
+   ZnCl4-2         4.326e-08   1.288e-08    -7.364    -7.890    -0.526     (0)  
+   Zn(Propionate)+   2.803e-08   2.093e-08    -7.552    -7.679    -0.127     (0)  
+   Zn(OH)4-2       4.253e-09   5.199e-10    -8.371    -9.284    -0.913     (0)  
+   Zn(Propionate)2   1.354e-11   1.418e-11   -10.868   -10.848     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -31.10     51.99   83.09  O2
+  Zincite           1.88     13.21   11.33  ZnO
+  Zn(OH)2           1.01     13.21   12.20  Zn(OH)2
+  Zn(OH)2(am)       0.74     13.21   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.46     13.21   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   1.68     13.21   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    1.48     13.21   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.41     16.60   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       7.90     46.40   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.49     -6.44    7.05  ZnCl2
+  Znmetal         -38.57    -12.78   25.79  Zn
+  ZnO(active)       2.02     13.21   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 34.
+-------------------------------------
+
+	SOLUTION 32
+	pH		9.2
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 32.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   9.200    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.002e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   4.352e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -3.522e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01
+                               Iterations  =   4
+                                  Total H  = 1.110139e+02
+                                  Total O  = 5.550707e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             2.242e-05   1.585e-05    -4.649    -4.800    -0.151     (0)  
+   H+              8.453e-10   6.310e-10    -9.073    -9.200    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          8.262e-05   8.262e-05    -4.083    -4.083     0.000     (0)  
+   ZnCl+           5.543e-06   3.982e-06    -5.256    -5.400    -0.144     (0)  
+   ZnCl2           9.416e-07   9.416e-07    -6.026    -6.026     0.000     (0)  
+   ZnCl3-          1.554e-07   1.116e-07    -6.809    -6.952    -0.144     (0)  
+   ZnCl4-2         2.796e-08   8.327e-09    -7.553    -8.080    -0.526     (0)  
+H(0)          5.383e-30
+   H2              2.691e-30   2.818e-30   -29.570   -29.550     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          1.202e-33
+   O2              6.011e-34   6.295e-34   -33.221   -33.201     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   1.812e-08   1.353e-08    -7.742    -7.869    -0.127     (0)  
+   H(Propionate)   7.046e-09   7.046e-09    -8.152    -8.152     0.000     (0)  
+   Zn(Propionate)2   8.752e-12   9.165e-12   -11.058   -11.038     0.020     (0)  
+Zn            2.000e-04
+   ZnOHCl          8.262e-05   8.262e-05    -4.083    -4.083     0.000     (0)  
+   Zn(OH)2         4.230e-05   4.230e-05    -4.374    -4.374     0.000     (0)  
+   Zn+2            3.422e-05   1.062e-05    -4.466    -4.974    -0.508     (0)  
+   ZnOH+           2.847e-05   1.684e-05    -4.546    -4.774    -0.228     (0)  
+   Zn(OH)3-        5.682e-06   3.360e-06    -5.245    -5.474    -0.228     (0)  
+   ZnCl+           5.543e-06   3.982e-06    -5.256    -5.400    -0.144     (0)  
+   ZnCl2           9.416e-07   9.416e-07    -6.026    -6.026     0.000     (0)  
+   ZnCl3-          1.554e-07   1.116e-07    -6.809    -6.952    -0.144     (0)  
+   ZnCl4-2         2.796e-08   8.327e-09    -7.553    -8.080    -0.526     (0)  
+   Zn(Propionate)+   1.812e-08   1.353e-08    -7.742    -7.869    -0.127     (0)  
+   Zn(OH)4-2       1.734e-08   2.120e-09    -7.761    -8.674    -0.913     (0)  
+   Zn(Propionate)2   8.752e-12   9.165e-12   -11.058   -11.038     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -30.30     52.79   83.09  O2
+  Zincite           2.09     13.42   11.33  ZnO
+  Zn(OH)2           1.22     13.42   12.20  Zn(OH)2
+  Zn(OH)2(am)       0.95     13.42   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.67     13.42   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   1.89     13.42   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    1.69     13.42   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.63     16.82   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       8.56     47.06   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.68     -6.63    7.05  ZnCl2
+  Znmetal         -38.76    -12.97   25.79  Zn
+  ZnO(active)       2.23     13.42   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 35.
+-------------------------------------
+
+	SOLUTION 33
+	pH		9.4
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 33.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   9.400    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.001e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   4.996e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -9.965e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.02
+                               Iterations  =   4
+                                  Total H  = 1.110140e+02
+                                  Total O  = 5.550713e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.554e-05   2.512e-05    -4.449    -4.600    -0.151     (0)  
+   H+              5.334e-10   3.981e-10    -9.273    -9.400    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          7.570e-05   7.570e-05    -4.121    -4.121     0.000     (0)  
+   ZnCl+           3.205e-06   2.302e-06    -5.494    -5.638    -0.144     (0)  
+   ZnCl2           5.444e-07   5.444e-07    -6.264    -6.264     0.000     (0)  
+   ZnCl3-          8.983e-08   6.453e-08    -7.047    -7.190    -0.144     (0)  
+   ZnCl4-2         1.617e-08   4.815e-09    -7.791    -8.317    -0.526     (0)  
+H(0)          2.143e-30
+   H2              1.071e-30   1.122e-30   -29.970   -29.950     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          7.586e-33
+   O2              3.793e-33   3.972e-33   -32.421   -32.401     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   1.048e-08   7.820e-09    -7.980    -8.107    -0.127     (0)  
+   H(Propionate)   4.446e-09   4.446e-09    -8.352    -8.352     0.000     (0)  
+   Zn(Propionate)2   5.060e-12   5.299e-12   -11.296   -11.276     0.020     (0)  
+Zn            2.000e-04
+   ZnOHCl          7.570e-05   7.570e-05    -4.121    -4.121     0.000     (0)  
+   Zn(OH)2         6.142e-05   6.142e-05    -4.212    -4.212     0.000     (0)  
+   ZnOH+           2.609e-05   1.543e-05    -4.584    -4.812    -0.228     (0)  
+   Zn+2            1.978e-05   6.141e-06    -4.704    -5.212    -0.508     (0)  
+   Zn(OH)3-        1.308e-05   7.733e-06    -4.883    -5.112    -0.228     (0)  
+   ZnCl+           3.205e-06   2.302e-06    -5.494    -5.638    -0.144     (0)  
+   ZnCl2           5.444e-07   5.444e-07    -6.264    -6.264     0.000     (0)  
+   ZnCl3-          8.983e-08   6.453e-08    -7.047    -7.190    -0.144     (0)  
+   Zn(OH)4-2       6.325e-08   7.733e-09    -7.199    -8.112    -0.913     (0)  
+   ZnCl4-2         1.617e-08   4.815e-09    -7.791    -8.317    -0.526     (0)  
+   Zn(Propionate)+   1.048e-08   7.820e-09    -7.980    -8.107    -0.127     (0)  
+   Zn(Propionate)2   5.060e-12   5.299e-12   -11.296   -11.276     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -29.50     53.59   83.09  O2
+  Zincite           2.25     13.59   11.33  ZnO
+  Zn(OH)2           1.38     13.58   12.20  Zn(OH)2
+  Zn(OH)2(am)       1.11     13.58   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.83     13.58   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   2.05     13.58   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    1.85     13.58   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.75     16.94   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       8.97     47.47   38.50  Zn5(OH)8Cl2
+  ZnCl2           -13.91     -6.86    7.05  ZnCl2
+  Znmetal         -39.00    -13.21   25.79  Zn
+  ZnO(active)       2.40     13.59   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 36.
+-------------------------------------
+
+	SOLUTION 34
+	pH		9.6
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 34.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   9.600    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.001e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   5.768e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -1.768e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.04
+                               Iterations  =   4
+                                  Total H  = 1.110140e+02
+                                  Total O  = 5.550721e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             5.633e-05   3.981e-05    -4.249    -4.400    -0.151     (0)  
+   H+              3.365e-10   2.512e-10    -9.473    -9.600    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             1.999e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          6.126e-05   6.126e-05    -4.213    -4.213     0.000     (0)  
+   ZnCl+           1.636e-06   1.175e-06    -5.786    -5.930    -0.144     (0)  
+   ZnCl2           2.780e-07   2.780e-07    -6.556    -6.556     0.000     (0)  
+   ZnCl3-          4.588e-08   3.295e-08    -7.338    -7.482    -0.144     (0)  
+   ZnCl4-2         8.258e-09   2.459e-09    -8.083    -8.609    -0.526     (0)  
+H(0)          8.531e-31
+   H2              4.266e-31   4.467e-31   -30.370   -30.350     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          4.786e-32
+   O2              2.393e-32   2.506e-32   -31.621   -31.601     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   5.349e-09   3.993e-09    -8.272    -8.399    -0.127     (0)  
+   H(Propionate)   2.805e-09   2.805e-09    -8.552    -8.552     0.000     (0)  
+   Zn(Propionate)2   2.584e-12   2.706e-12   -11.588   -11.568     0.020     (0)  
+Zn            2.000e-04
+   Zn(OH)2         7.877e-05   7.877e-05    -4.104    -4.104     0.000     (0)  
+   ZnOHCl          6.126e-05   6.126e-05    -4.213    -4.213     0.000     (0)  
+   Zn(OH)3-        2.658e-05   1.572e-05    -4.575    -4.804    -0.228     (0)  
+   ZnOH+           2.111e-05   1.248e-05    -4.676    -4.904    -0.228     (0)  
+   Zn+2            1.010e-05   3.135e-06    -4.996    -5.504    -0.508     (0)  
+   ZnCl+           1.636e-06   1.175e-06    -5.786    -5.930    -0.144     (0)  
+   ZnCl2           2.780e-07   2.780e-07    -6.556    -6.556     0.000     (0)  
+   Zn(OH)4-2       2.038e-07   2.491e-08    -6.691    -7.604    -0.913     (0)  
+   ZnCl3-          4.588e-08   3.295e-08    -7.338    -7.482    -0.144     (0)  
+   ZnCl4-2         8.258e-09   2.459e-09    -8.083    -8.609    -0.526     (0)  
+   Zn(Propionate)+   5.349e-09   3.993e-09    -8.272    -8.399    -0.127     (0)  
+   Zn(Propionate)2   2.584e-12   2.706e-12   -11.588   -11.568     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -28.70     54.39   83.09  O2
+  Zincite           2.36     13.69   11.33  ZnO
+  Zn(OH)2           1.49     13.69   12.20  Zn(OH)2
+  Zn(OH)2(am)       1.22     13.69   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.94     13.69   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   2.16     13.69   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    1.96     13.69   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.77     16.96   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       9.11     47.61   38.50  Zn5(OH)8Cl2
+  ZnCl2           -14.21     -7.16    7.05  ZnCl2
+  Znmetal         -39.29    -13.50   25.79  Zn
+  ZnO(active)       2.50     13.69   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 37.
+-------------------------------------
+
+	SOLUTION 35
+	pH		9.8
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 35.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   9.800    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.002e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   6.686e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -2.686e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.07
+                               Iterations  =   4
+                                  Total H  = 1.110141e+02
+                                  Total O  = 5.550730e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             8.927e-05   6.310e-05    -4.049    -4.200    -0.151     (0)  
+   H+              2.123e-10   1.585e-10    -9.673    -9.800    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.492e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          4.339e-05   4.339e-05    -4.363    -4.363     0.000     (0)  
+   ZnCl+           7.312e-07   5.252e-07    -6.136    -6.280    -0.144     (0)  
+   ZnCl2           1.242e-07   1.242e-07    -6.906    -6.906     0.000     (0)  
+   ZnCl3-          2.050e-08   1.473e-08    -7.688    -7.832    -0.144     (0)  
+   ZnCl4-2         3.691e-09   1.099e-09    -8.433    -8.959    -0.526     (0)  
+H(0)          3.396e-31
+   H2              1.698e-31   1.778e-31   -30.770   -30.750     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          3.020e-31
+   O2              1.510e-31   1.581e-31   -30.821   -30.801     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   Zn(Propionate)+   2.390e-09   1.784e-09    -8.622    -8.749    -0.127     (0)  
+   H(Propionate)   1.770e-09   1.770e-09    -8.752    -8.752     0.000     (0)  
+   Zn(Propionate)2   1.155e-12   1.209e-12   -11.938   -11.918     0.020     (0)  
+Zn            2.000e-04
+   Zn(OH)2         8.841e-05   8.841e-05    -4.054    -4.054     0.000     (0)  
+   Zn(OH)3-        4.728e-05   2.796e-05    -4.325    -4.553    -0.228     (0)  
+   ZnOHCl          4.339e-05   4.339e-05    -4.363    -4.363     0.000     (0)  
+   ZnOH+           1.495e-05   8.840e-06    -4.825    -5.054    -0.228     (0)  
+   Zn+2            4.514e-06   1.401e-06    -5.345    -5.854    -0.508     (0)  
+   ZnCl+           7.312e-07   5.252e-07    -6.136    -6.280    -0.144     (0)  
+   Zn(OH)4-2       5.745e-07   7.024e-08    -6.241    -7.153    -0.913     (0)  
+   ZnCl2           1.242e-07   1.242e-07    -6.906    -6.906     0.000     (0)  
+   ZnCl3-          2.050e-08   1.473e-08    -7.688    -7.832    -0.144     (0)  
+   ZnCl4-2         3.691e-09   1.099e-09    -8.433    -8.959    -0.526     (0)  
+   Zn(Propionate)+   2.390e-09   1.784e-09    -8.622    -8.749    -0.127     (0)  
+   Zn(Propionate)2   1.155e-12   1.209e-12   -11.938   -11.918     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -27.90     55.19   83.09  O2
+  Zincite           2.41     13.74   11.33  ZnO
+  Zn(OH)2           1.54     13.74   12.20  Zn(OH)2
+  Zn(OH)2(am)       1.27     13.74   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.99     13.74   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   2.21     13.74   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    2.01     13.74   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.67     16.86   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       8.96     47.46   38.50  Zn5(OH)8Cl2
+  ZnCl2           -14.56     -7.51    7.05  ZnCl2
+  Znmetal         -39.64    -13.85   25.79  Zn
+  ZnO(active)       2.56     13.74   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 38.
+-------------------------------------
+
+	SOLUTION 36
+	pH		10.0
+	Cl		0.2		mol/kgw
+	Na		0.2		mol/kgw
+	Zn	0.200 	mmol/kgw
+	Propionate  0.200 	mmol/kgw
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 36.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                2.000e-01   2.000e-01
+	Na                2.000e-01   2.000e-01
+	Propionate        2.000e-04   2.000e-04
+	Zn                2.000e-04   2.000e-04
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  10.000    
+                                       pe  =   4.000    
+                        Activity of water  =   0.993
+                 Ionic strength (mol/kgw)  =   2.002e-01
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   7.775e-04
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -3.775e-04
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.09
+                               Iterations  =   4
+                                  Total H  = 1.110142e+02
+                                  Total O  = 5.550741e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.415e-04   1.000e-04    -3.849    -4.000    -0.151     (0)  
+   H+              1.340e-10   1.000e-10    -9.873   -10.000    -0.127      0.00
+   H2O             5.551e+01   9.932e-01     1.744    -0.003     0.000     18.07
+Cl            2.000e-01
+   Cl-             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+   ZnOHCl          2.687e-05   2.687e-05    -4.571    -4.571     0.000     (0)  
+   ZnCl+           2.858e-07   2.053e-07    -6.544    -6.688    -0.144     (0)  
+   ZnCl2           4.855e-08   4.855e-08    -7.314    -7.314     0.000     (0)  
+   ZnCl3-          8.015e-09   5.757e-09    -8.096    -8.240    -0.144     (0)  
+   ZnCl4-2         1.443e-09   4.297e-10    -8.841    -9.367    -0.526     (0)  
+H(0)          1.352e-31
+   H2              6.761e-32   7.079e-32   -31.170   -31.150     0.020     (0)  
+Na            2.000e-01
+   Na+             2.000e-01   1.493e-01    -0.699    -0.826    -0.127     (0)  
+O(0)          1.905e-30
+   O2              9.527e-31   9.977e-31   -30.021   -30.001     0.020     (0)  
+Propionate    2.000e-04
+   Propionate-     2.000e-04   1.493e-04    -3.699    -3.826    -0.127     (0)  
+   H(Propionate)   1.117e-09   1.117e-09    -8.952    -8.952     0.000     (0)  
+   Zn(Propionate)+   9.341e-10   6.972e-10    -9.030    -9.157    -0.127     (0)  
+   Zn(Propionate)2   4.512e-13   4.724e-13   -12.346   -12.326     0.020     (0)  
+Zn            2.000e-04
+   Zn(OH)2         8.678e-05   8.678e-05    -4.062    -4.062     0.000     (0)  
+   Zn(OH)3-        7.356e-05   4.350e-05    -4.133    -4.362    -0.228     (0)  
+   ZnOHCl          2.687e-05   2.687e-05    -4.571    -4.571     0.000     (0)  
+   ZnOH+           9.260e-06   5.475e-06    -5.033    -5.262    -0.228     (0)  
+   Zn+2            1.764e-06   5.475e-07    -5.754    -6.262    -0.508     (0)  
+   Zn(OH)4-2       1.417e-06   1.732e-07    -5.849    -6.762    -0.913     (0)  
+   ZnCl+           2.858e-07   2.053e-07    -6.544    -6.688    -0.144     (0)  
+   ZnCl2           4.855e-08   4.855e-08    -7.314    -7.314     0.000     (0)  
+   ZnCl3-          8.015e-09   5.757e-09    -8.096    -8.240    -0.144     (0)  
+   ZnCl4-2         1.443e-09   4.297e-10    -8.841    -9.367    -0.526     (0)  
+   Zn(Propionate)+   9.341e-10   6.972e-10    -9.030    -9.157    -0.127     (0)  
+   Zn(Propionate)2   4.512e-13   4.724e-13   -12.346   -12.326     0.020     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Halite           -3.25     -1.65    1.60  NaCl
+  O2(g)           -27.10     55.99   83.09  O2
+  Zincite           2.40     13.74   11.33  ZnO
+  Zn(OH)2           1.53     13.73   12.20  Zn(OH)2
+  Zn(OH)2(am)       1.26     13.73   12.47  Zn(OH)2
+  Zn(OH)2(beta)     1.98     13.73   11.75  Zn(OH)2
+  Zn(OH)2(epsilon)   2.20     13.73   11.53  Zn(OH)2
+  Zn(OH)2(gamma)    2.00     13.73   11.73  Zn(OH)2
+  Zn2(OH)3Cl        1.45     16.64   15.19  Zn2(OH)3Cl
+  Zn5(OH)8Cl2       8.52     47.02   38.50  Zn5(OH)8Cl2
+  ZnCl2           -14.96     -7.91    7.05  ZnCl2
+  Znmetal         -40.05    -14.26   25.79  Zn
+  ZnO(active)       2.55     13.74   11.19  ZnO
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+-------------------------------------
+Reading input data for simulation 39.
+-------------------------------------
+
+----------------------------------
+End of Run after 0.058316 Seconds.
+----------------------------------
+
